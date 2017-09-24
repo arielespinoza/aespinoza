@@ -1,0 +1,90 @@
+body{
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	line-height: 27px;
+	font-weight: 300;
+}
+h1{
+	font-style: italic;
+}
+.text-center{
+	text-align: center;
+}
+section{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.inicio{
+	background-image: url("../img/bghome.png");
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 900px;
+}
+.inicio h1{
+	font-size: 50px;
+	font-weight: 600;
+	margin:20px 0px 0px 0px;
+	line-height: 50px;
+	font-style: normal;
+}
+.inicio p {
+	margin:0px 0px 30px 0px;
+	font-size: 22px;
+	font-weight: 100;
+	font-style: normal;
+}
+.infoHome{
+	margin-top:190px;
+}
+.text-white {
+	color:#fff;
+}
+.btn-out{
+	background: transparent;
+    border: 1px solid #fff;
+    padding: 0px 26px;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    height: 45px;
+    float: left;
+    color: #fff;
+    margin: 0px 5px;
+    font-size:16px;
+    font-weight: 500;
+    font-style: normal;
+}
+.btn-out img{
+	margin-right:15px;
+}
+.btnhome {
+	text-align: center;
+    margin: 0 auto;
+    width: 381px;
+}
+.pv100{
+	padding:100px 0px;
+}
+.perfil h1 {
+	margin:0px 0px 50px 0px;
+}
+.half {
+	width: 50%;
+	float: left;
+}
+.dark{
+	background:#252525;
+}
+.gray {
+	background:#DADADA;
+}
+.metodologia .dark{
+	height: 610px;
+	padding-top:180px;
+}
+
+.metodologia .dark h1{
+margin-bottom:70px;
+}
+
+
