@@ -3,6 +3,10 @@ body{
 	line-height: 27px;
 	font-weight: 300;
 }
+.fila {
+	width: 100%;
+	float: left;
+}
 .mtop20{
 	margin-top: 20px;
 }
@@ -14,6 +18,9 @@ body{
 }
 .mbottom100{
 	margin-bottom:100px;
+}
+.mbottom40{
+	margin-bottom:40px;
 }
 h1{
 	font-weight: 800;
@@ -138,5 +145,8 @@ margin-bottom:70px;
 .imgDesktop {
 	width: 100%;
 	max-width: 520px !important;
+}
+.experiencia img{
+	max-width: 100%;
 }
 
