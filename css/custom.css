@@ -1,11 +1,25 @@
 body{
 	font-family: 'Lato', sans-serif;
-	font-style: italic;
 	line-height: 27px;
 	font-weight: 300;
 }
+.mtop20{
+	margin-top: 20px;
+}
+.mtop40{
+	margin-top: 40px;
+}
+.mtop70{
+	margin-top: 70px;
+}
+.mbottom100{
+	margin-bottom:100px;
+}
 h1{
-	font-style: italic;
+	font-weight: 800;
+}
+p{
+	color:#484848;
 }
 .text-center{
 	text-align: center;
@@ -19,30 +33,29 @@ section{
 	background-image: url("../img/bghome.png");
 	background-position: top;
 	background-repeat: no-repeat;
-	height: 900px;
+	height: 850px;
 }
 .inicio h1{
 	font-size: 50px;
 	font-weight: 600;
-	margin:20px 0px 0px 0px;
+	margin:15px 0px 0px 0px;
 	line-height: 50px;
 	font-style: normal;
 }
 .inicio p {
-	margin:0px 0px 30px 0px;
+	margin:0px 0px 20px 0px;
 	font-size: 22px;
 	font-weight: 100;
 	font-style: normal;
 }
 .infoHome{
-	margin-top:190px;
+	margin-top:170px;
 }
 .text-white {
 	color:#fff;
 }
 .btn-out{
 	background: transparent;
-    border: 1px solid #fff;
     padding: 0px 26px;
     background-repeat: no-repeat;
     border-radius: 3px;
@@ -51,8 +64,17 @@ section{
     color: #fff;
     margin: 0px 5px;
     font-size:16px;
-    font-weight: 500;
+    font-weight: 200;
     font-style: normal;
+    border:0px;
+}
+.btn-out:hover{
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-ms-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+	background-color:#000;
 }
 .btn-out img{
 	margin-right:15px;
@@ -60,10 +82,10 @@ section{
 .btnhome {
 	text-align: center;
     margin: 0 auto;
-    width: 381px;
+    width: 435px;
 }
-.pv100{
-	padding:100px 0px;
+.pv160{
+	padding:160px 0px;
 }
 .perfil h1 {
 	margin:0px 0px 50px 0px;
@@ -73,18 +95,48 @@ section{
 	float: left;
 }
 .dark{
-	background:#252525;
+	background:#f3f3f3;
 }
 .gray {
-	background:#DADADA;
+	background:#f3f3f3;
 }
-.metodologia .dark{
-	height: 610px;
-	padding-top:180px;
+.metodologia{
+	background:#f3f3f3;
 }
-
 .metodologia .dark h1{
 margin-bottom:70px;
 }
-
+.turquesa {
+	background-color:#89ECDC;
+}
+.celeste{
+	background-color:#60BEE8;
+}
+.morado {
+	background-color:#D7B9F4;
+}
+.amarillo{
+	background-color:#F1F29C;
+}
+.anaranjado {
+	background-color:#F4C084;
+}
+.verde {
+	background-color:#CFE8B8;
+}
+.item{
+	display: inline-block;
+	width: 100%;
+}
+.nopadding{
+	padding: 0 !important;
+   	margin: 0 !important;
+}
+.imgMobile {
+	max-width: 335px !important;
+}
+.imgDesktop {
+	width: 100%;
+	max-width: 520px !important;
+}
 
