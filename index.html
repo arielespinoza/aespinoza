@@ -7,7 +7,7 @@
     <title>Ariel Espinoza | Diseñador UX</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,900i" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -15,7 +15,44 @@
   </head>
   <body>
     
-    <section class="inicio">
+    <!-- menú -->
+    <div class="list-group navbar" id="sidebar">
+      <ul class="nav" id="mynav" data-spy="affix" data-offset-top="280">
+          <li>
+            <a href="#inicio" class="list-group-item">
+              Inicio
+            </a>
+          </li>
+          <li>
+            <a href="#perfil" class="list-group-item">
+              Perfil
+            </a>
+          </li>
+          <li> 
+            <a href="#metodologia" class="list-group-item" contenteditable="false">
+              Metodología
+            </a>
+          </li>
+          <li> 
+            <a href="#portafolio" class="list-group-item" contenteditable="false">
+              Portafolio
+            </a>
+          </li>
+          <li> 
+            <a href="#experiencia" class="list-group-item" contenteditable="false">
+              Experiencia
+            </a>
+          </li>
+          <li> 
+            <a href="#contacto" class="list-group-item" contenteditable="false">
+              Contacto
+            </a>
+          </li>
+      </ul>
+    </div>
+    <!-- menú -->
+
+    <section class="inicio" id="inicio">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12 col-md-offset-2 col-lg-offset-2 text-center infoHome">
@@ -23,21 +60,24 @@
             <h1 class="text-white">ARIEL ESPINOZA SALINAS</h1>
             <P class="text-white">Diseñador UX / Licenciado en Diseño Gráfico</P>
             <div class="btnhome">
-              <button class="btn-out btn-cv">
+              <a href="http://www.arielespinoza.cl/archivos/cv.pdf" target="_blank" class="btn-out btn-cv">
                 <img src="img/pdf.png" alt="icon" class="pull-left">
                 CURRICULUM
-              </button>
-              <button class="btn-out btn-linkedin">
+              </a>
+              <a href="http://www.linkedin.com/in/arielespinoza" target="_blank" class="btn-out btn-linkedin">
                 <img src="img/linkedin.png" alt="icon" class="pull-left">
                 PERFIL LINKEDIN
-              </button>
+              </a>
             </div>
+            <a href="#perfil" class="soft">
+              <div class="arrowDown"></div>
+            </a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="perfil pv160">
+    <section class="perfil pv140" id="perfil">
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1 text-center">
@@ -46,43 +86,39 @@
           <div class="col-md-6 col-lg-6">
             <h1>Perfil personal</h1>
             <p>
-              Soy Licenciado en Diseño Gráfico de profesión y he desarrollado mi experiencia laboral en las áreas de <strong>Banca, Marketing Digital, TI e Inteligencia de Negocios</strong>.
+              Soy Licenciado en Diseño Gráfico de profesión, he desarrollado mi experiencia laboral en las áreas de <strong>Banca, Marketing Digital, TI e Inteligencia de Negocios</strong>.
             </p>
             <p> 
-               Mi trabajo se centra en las personas, desde ese punto de vista creo que se debe hacer converger <strong>tecnología diseño y negocio en pro de experiencias óptimas que agreguen valor</strong>. Soy partidario del trabajo en equipo y en especial de la gente que siente motivación por lo que hace.
+               Mi trabajo se centra en las personas, creo que desde ese punto de vista se debe hacer converger <strong>tecnología, diseño y negocio para generar buenas experiencias que agreguen valor</strong>. Soy partidario del trabajo en equipo y en especial de la gente que siente motivación por lo que hace.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="metodologia">
-      <div class="half dark pv160">
+    <section class="metodologia" id="metodologia">
+      <div class="half dark pv140">
         <div class="col-md-9 col-lg-9 col-sm-12 col-md-offset-2 col-lg-offset-2 text-center">
           <h1 class="mtop70">Trabajo en equipo</h1>
           <p>
-            <i>
-              <strong>
-                "Equipo… tenemos que hacer modificaciones en el flujo… ¡Pero si ya estamos terminando el Front!”
-              </strong>
-            </i>
+            "Equipo… tenemos que hacer modificaciones en el flujo… ¡Pero si ya estamos terminando el Front!”
           </p>
           <p>
             Imagino que no soy el primero en escuchar esa frase, a raíz de esto surge mi propuesta de trabajo colaborativo poniendo en el centro a los involucrados clave durante cada hito del proceso.
           </p>
         </div>
       </div>
-      <div class="half gray text-center pv160">
+      <div class="half gray text-center pv140">
         <div class="col-md-10 col-lg-10 col-sm-12  text-center">
           <img src="img/metodologia.png" alt="img metodología">
         </div>
       </div>
     </section>
 
-    <section class="portafolio pv160 text-center">
+    <section class="portafolio pv140 text-center" id="portafolio">
       <h1 class="mbottom100">Portafolio</h1>
       <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 nopadding">
-        <a href="#" class="item turquesa">
+        <a href="#" class="item turquesa" data-toggle="modal" data-target="#homeApp">
           <img src="img/homeApp.png" class="imgMobile">
         </a>
       </div>
@@ -113,87 +149,101 @@
       </div> 
     </section>
 
-    <section class="experiencia text-center">
+    <section class="experiencia text-center" id="experiencia">
       <h1 class="mbottom100">He colaborado con</h1>
-      <div class="fila mbottom40">
-        <div class="col-md-3 col-lg-3 col-sm-12">
-          <img src="img/bbva.png" alt="Bbva">
+      <div class="container">
+        <div class="fila">
+          <div class="col-md-3 col-lg-3 col-sm-12 logos">
+            <img src="img/bbva.png" alt="Bbva">
+          </div>
+          <div class="col-md-3 col-lg-3 col-sm-12 logos">
+            <img src="img/intellego.png" alt="Intellego">
+          </div>
+          <div class="col-md-3 col-lg-3 col-sm-12 logos">
+            <img src="img/havas.png" alt="Havas">
+          </div>
+          <div class="col-md-3 col-lg-3 col-sm-12 logos">
+            <img src="img/bnamericas2.png" alt="Bnamericas">
+          </div>
         </div>
-        <div class="col-md-3 col-lg-3 col-sm-12">
-          <img src="img/intellego.png" alt="Intellego">
-        </div>
-        <div class="col-md-3 col-lg-3 col-sm-12">
-          <img src="img/havas.png" alt="Havas">
-        </div>
-        <div class="col-md-3 col-lg-3 col-sm-12">
-          <img src="img/bnamericas2.png" alt="Bnamericas">
-        </div>
-      </div>
-      <div class="fila">
-        <div class="col-md-3 col-lg-3 col-sm-12">
-          <img src="img/minagri.png" alt="Minagri">
-        </div>
-        <div class="col-md-3 col-lg-3 col-sm-12">
-          <img src="img/crn.png" alt="Corporación nacional de riego">
-        </div>
-        <div class="col-md-3 col-lg-3 col-sm-12">
-          <img src="img/fucoa.png" alt="Fucoa">
-        </div>
-        <div class="col-md-3 col-lg-3 col-sm-12">
-          <img src="img/apiux.png" alt="Apiux">
+        <div class="fila">
+          <div class="col-md-3 col-lg-3 col-sm-12 logos">
+            <img src="img/minagri.png" alt="Minagri">
+          </div>
+          <div class="col-md-3 col-lg-3 col-sm-12 logos">
+            <img src="img/fucoa.png" alt="Fucoa">
+          </div>
+          <div class="col-md-3 col-lg-3 col-sm-12 logos">
+            <img src="img/apiux.png" alt="Apiux">
+          </div>
+          <div class="col-md-3 col-lg-3 col-sm-12 logos">
+            <img src="img/crn.png" alt="Corporación nacional de riego">
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="contacto pv160">
-      <h1 class="mbottom100 text-center">Contáctame ahora</h1>
-      <div class="col-md-4 col-lg-4 col-sm-12 col-md-offset-1 col-lg-offset-1">
-        <h3>Datos de contacto</h3>
-        <ul>
-          <li>
-            <img src="img/icon-telefono.png" alt="icon teléfono">
-            +569 94946228
-          </li>
-          <li>
-            <img src="img/icon-email.png" alt="icon email">
-            a.espinozasalinas@gmail.com
-          </li>
-          <li>
-            <img src="img/icon-linkedin.png" alt="icon linkedin">
-            /arielespinoza
-          </li>
-          <li>
-            <img src="img/icon-pixeles.png" alt="icon pixeles">
-            /aespinozasalinas
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-6 col-lg-6 col-sm-12">
-        <form>
-          <div class="form-group">
-            <label for="nombre">¿Cuál es tu nombre?</label>
-            <input type="text" class="form-control" id="nombre">
-          </div>
-          <div class="form-group">
-            <label for="email">¿Cuál es tu email?</label>
-            <input type="email" class="form-control" id="email">
-          </div>
-          <div class="form-group">
-            <label for="mensaje">Escribe tu mensaje</label>
-            <textarea id="mensaje"></textarea> 
-          </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
+    <section class="contacto pv140" id="contacto">
+      <h1 class="mbottom100 text-center">Contáctame</h1>
+      <div class="container">
+        <div class="col-md-4 col-lg-4 col-sm-12 col-md-offset-1 col-lg-offset-1">
+          <h3 class="mtop0">Datos de contacto</h3>
+          <ul>
+            <li>
+              <img src="img/icon-telefono.png" alt="icon teléfono">
+              +569 94946228
+            </li>
+            <li>
+              <img src="img/icon-email.png" alt="icon email">
+              <a href="mailto:a.espinozasalinas@gmail.com">a.espinozasalinas@gmail.com</a>
+            </li>
+            <li>
+              <img src="img/icon-linkedin.png" alt="icon linkedin">
+              <a href="www.linkedin.com/in/arielespinoza" target="blank">/arielespinoza</a>
+            </li>
+            <li>
+              <img src="img/icon-pixeles.png" alt="icon pixeles">
+              <a href="https://500px.com/aespinozasalinas" target="blank">/aespinozasalinas</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-12">
+          <form id="formulario">
+            <div class="form-group">
+              <label for="nombre">¿Cuál es tu nombre?</label>
+              <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="form-group">
+              <label for="email">¿Cuál es tu email?</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Escribe tu mensaje</label>
+              <textarea class="form-control" id="mensaje"></textarea> 
+            </div>
+            <div class="text-right">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+        </div>
       </div>
     </section>
 
     <!-- modales -->
+    <div class="modal fade" id="#homeApp" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          ...
+        </div>
+      </div>
+    </div>
     <!-- modales -->
 
 
     <!-- scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
     <!-- scripts -->
 
   </body>

@@ -16,6 +16,9 @@ body{
 .mtop70{
 	margin-top: 70px;
 }
+.mtop0{
+	margin-top:0px;
+}
 .mbottom100{
 	margin-bottom:100px;
 }
@@ -24,12 +27,19 @@ body{
 }
 h1{
 	font-weight: 800;
+	font-style: italic;
 }
 p{
 	color:#484848;
 }
 .text-center{
 	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
 }
 section{
 	width: 100%;
@@ -50,7 +60,7 @@ section{
 	font-style: normal;
 }
 .inicio p {
-	margin:0px 0px 20px 0px;
+	margin:0px 0px 10px 0px;
 	font-size: 22px;
 	font-weight: 100;
 	font-style: normal;
@@ -68,7 +78,7 @@ section{
     border-radius: 3px;
     height: 45px;
     float: left;
-    color: #fff;
+    color: #f0f0f0;
     margin: 0px 5px;
     font-size:16px;
     font-weight: 200;
@@ -81,7 +91,7 @@ section{
 	-ms-transition: all 200ms ease-in-out;
 	-o-transition: all 200ms ease-in-out;
 	transition: all 200ms ease-in-out;
-	background-color:#000;
+	color: #fff;
 }
 .btn-out img{
 	margin-right:15px;
@@ -90,9 +100,10 @@ section{
 	text-align: center;
     margin: 0 auto;
     width: 435px;
+    display: inline-block;
 }
-.pv160{
-	padding:160px 0px;
+.pv140{
+	padding:140px 0px;
 }
 .perfil h1 {
 	margin:0px 0px 50px 0px;
@@ -147,6 +158,77 @@ margin-bottom:70px;
 	max-width: 520px !important;
 }
 .experiencia img{
-	max-width: 100%;
+	max-width: 85%;
 }
+.logos{
+	line-height: 200px;
+	border:1px #f5f5f5 solid;
+}
+.contacto {
+	background-image: url("../img/santiago.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 1170px;
+}
+.contacto ul{
+	margin-top:50px;
+	padding-left:0px;
+}
+.contacto ul li {
+    list-style: none;
+    margin-bottom: 30px;
+}
+.contacto ul li a{
+	color:#292929 !important;
+}
+.contacto ul li img {
+    float: left;
+    margin-right:20px;
+}
+textarea{
+	height: 100px !important;
+}
+.contacto h3 {
+	font-style: italic;
+}
+.arrowDown{
+	background-image: url("../img/arrowDown.png");
+	background-repeat: no-repeat;
+	width: 87px;
+	height: 87px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.btnhome a:hover{
+	text-decoration: none;
+}
+.btnhome a:focus{
+	color:#fff;
+}
+
+.navbar {
+	border:1px #f00 solid;
+	padding:20px 0px;
+	right: 0px;
+	top:0px;
+	position: fixed;
+    width: 100%;
+    text-align: right;
+}
+.navbar ul {
+	list-style: none;
+	margin:0px;
+	padding:0px;
+	display: inline-block;
+}
+.navbar ul li{
+	float: left;
+	margin:0px 0px 0px 20px;
+}
+.affix{
+	right: 0px;
+	padding:20px 0px;
+}
+#mynav li.active a {background-color:red;}
+
 
