@@ -47,7 +47,7 @@ section{
 	float: left;
 }
 .inicio{
-	background-image: url("../img/bghome.png");
+	background-image: url("../img/bghome.jpg");
 	background-position: top;
 	background-repeat: no-repeat;
 	height: 850px;
@@ -270,5 +270,12 @@ textarea{
 	border-radius: 20px;
 	border:1px #B8B8B8 solid;
 }
-
-
+header.header{
+	width: 100%;
+	height: 400px;
+}
+.homeApp{
+	background-image: url("../img/back-homeapp.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+}
