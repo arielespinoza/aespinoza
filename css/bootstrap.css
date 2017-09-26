@@ -2989,7 +2989,8 @@ button.close {
   display: none !important;
 }
 .affix {
-  position: fixed;
+    background: #fff;
+    z-index: 9;
 }
 @-ms-viewport {
   width: device-width;
