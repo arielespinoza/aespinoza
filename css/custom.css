@@ -207,13 +207,13 @@ textarea{
 }
 
 .navbar {
-	border:1px #f00 solid;
 	padding:20px 0px;
 	right: 0px;
 	top:0px;
 	position: fixed;
     width: 100%;
     text-align: right;
+    z-index: 9;
 }
 .navbar ul {
 	list-style: none;
@@ -223,12 +223,34 @@ textarea{
 }
 .navbar ul li{
 	float: left;
-	margin:0px 0px 0px 20px;
+    margin: 0px 25px 0px 0px;
+    font-weight: 300;
+    font-size: 16px;
 }
 .affix{
 	right: 0px;
-	padding:20px 0px;
+	padding: 10px 0px;
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-ms-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
 }
-#mynav li.active a {background-color:red;}
+.nav li a {
+	color:#292929;
+	-webkit-transition: all 100ms ease-in-out;
+	-moz-transition: all 100ms ease-in-out;
+	-ms-transition: all 100ms ease-in-out;
+	-o-transition: all 100ms ease-in-out;
+	transition: all 100ms ease-in-out;
+}
+#mynav li.active a {
+	font-weight: 800;
+	-webkit-transition: all 100ms ease-in-out;
+	-moz-transition: all 100ms ease-in-out;
+	-ms-transition: all 100ms ease-in-out;
+	-o-transition: all 100ms ease-in-out;
+	transition: all 100ms ease-in-out;
+}
 
 
