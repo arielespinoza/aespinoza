@@ -225,11 +225,11 @@ textarea{
 	float: left;
     margin: 0px 25px 0px 0px;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 15px;
 }
 .affix{
 	right: 0px;
-	padding: 10px 0px;
+	padding: 15px 0px;
 	-webkit-transition: all 200ms ease-in-out;
 	-moz-transition: all 200ms ease-in-out;
 	-ms-transition: all 200ms ease-in-out;
@@ -244,6 +244,9 @@ textarea{
 	-o-transition: all 100ms ease-in-out;
 	transition: all 100ms ease-in-out;
 }
+.nav li a:focus, .nav li a:hover {
+	text-decoration: none;
+}
 #mynav li.active a {
 	font-weight: 800;
 	-webkit-transition: all 100ms ease-in-out;
@@ -251,6 +254,9 @@ textarea{
 	-ms-transition: all 100ms ease-in-out;
 	-o-transition: all 100ms ease-in-out;
 	transition: all 100ms ease-in-out;
+}
+.affix-top ul li a {
+    color: #c1c1c1;
 }
 
 
