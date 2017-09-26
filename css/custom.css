@@ -25,6 +25,9 @@ body{
 .mbottom40{
 	margin-bottom:40px;
 }
+.mbottom0{
+	margin-bottom:0px;
+}
 h1{
 	font-weight: 800;
 	font-style: italic;
@@ -278,4 +281,11 @@ header.header{
 	background-image: url("../img/back-homeapp.jpg");
 	background-repeat: no-repeat;
 	background-position: top;
+}
+.tituloProyecto {
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    display: inline-block;
+    color:#fff;
 }
