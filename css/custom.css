@@ -258,5 +258,17 @@ textarea{
 .affix-top ul li a {
     color: #c1c1c1;
 }
+.isotipo{
+	width:32px;
+	height:32px;
+	background-image: url("../img/isotipo.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left:20px;
+	float: left;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	border:1px #B8B8B8 solid;
+}
 
 
