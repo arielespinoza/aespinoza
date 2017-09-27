@@ -117,6 +117,9 @@ section{
 .pv140{
 	padding:140px 0px;
 }
+.pv100{
+	padding:100px 0px;
+}
 .perfil h1 {
 	margin:0px 0px 50px 0px;
 }
@@ -298,3 +301,13 @@ header.header{
     display: inline-block;
     color:#fff;
 }
+.footer-proyectos {
+	width: 100%;
+	float: left;
+}
+
+
+
+
+
+
