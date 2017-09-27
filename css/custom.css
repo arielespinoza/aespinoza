@@ -28,6 +28,15 @@ body{
 .mbottom0{
 	margin-bottom:0px;
 }
+.max100{
+	max-width: 100%;
+}
+.bgblue{
+	background-color: #004481;
+}
+.bgdark{
+	background-color: #252525;
+}
 h1{
 	font-weight: 800;
 	font-style: italic;
