@@ -13,8 +13,17 @@ body{
 .mtop40{
 	margin-top: 40px;
 }
+.mtop50{
+	margin-top: 50px;
+}
 .mtop70{
 	margin-top: 70px;
+}
+.mtop100{
+	margin-top: 100px;
+}
+.mtop140{
+	margin-top: 140px;
 }
 .mtop0{
 	margin-top:0px;
@@ -30,6 +39,9 @@ body{
 }
 .max100{
 	max-width: 100%;
+}
+.pd30 {
+	padding:30px;
 }
 .bgblue{
 	background-color: #004481;
@@ -119,6 +131,9 @@ section{
 }
 .pv100{
 	padding:100px 0px;
+}
+.pv50{
+	padding:50px 0px;
 }
 .perfil h1 {
 	margin:0px 0px 50px 0px;
@@ -305,9 +320,38 @@ header.header{
 	width: 100%;
 	float: left;
 }
-
-
-
-
-
+.descripcion h1{
+	margin-top:0px;
+}
+.descripcion p{
+	margin:0px;
+}
+.descripcion .col-md-2{
+	text-align: right;
+}
+.descripcion h1, .bocetos h1{
+	margin-bottom:50px;
+}
+.bocetosWireframe {
+	border:1px #BEBEBE solid;
+}
+.contentWireframe {
+	background:#F9F9F9;
+}
+.bocetosWireframe p {
+    font-style: italic;
+    margin-top:0px;
+}
+.ui {
+	background:#F9F9F9;
+}
+.ui h1{
+	margin-bottom:50px;
+}
+.tituloProyecto p{
+	margin-top:5px;
+}
+.inicioProyecto{
+	background:#F9F9F9;
+}
 

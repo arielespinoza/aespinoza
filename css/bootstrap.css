@@ -2647,14 +2647,14 @@ a.label:focus {
   padding-bottom: 75%;
 }
 .close {
-  font-size: 33px;
-  font-weight: bold;
-  line-height: 1;
-  color: #676767;
-  z-index: 9;
-  position: absolute;
-  right: 10px;
-  top: 0px;
+  font-size: 38px;
+    font-weight: bold;
+    line-height: 1;
+    color: #c5c5c5;
+    z-index: 9;
+    position: fixed;
+    right: 25px;
+    top: 0px;
 }
 .close:hover,
 .close:focus {
