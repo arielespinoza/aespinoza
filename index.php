@@ -17,7 +17,9 @@
     
     <!-- menú -->
     <div class="list-group navbar" id="sidebar" data-spy="affix" data-offset-top="770">
-      <div class="isotipo"></div>
+      <a href="#inicio" class="soft">
+        <div class="isotipo"></div>
+      </a>
       <ul class="nav" id="mynav" >
           <li>
             <a href="#inicio" class="list-group-item soft">
@@ -63,11 +65,11 @@
             <div class="btnhome">
               <a href="http://www.arielespinoza.cl/archivos/cv.pdf" target="_blank" class="btn-out btn-cv">
                 <img src="img/pdf.png" alt="icon" class="pull-left">
-                CURRICULUM
+                Curriculum
               </a>
               <a href="http://www.linkedin.com/in/arielespinoza" target="_blank" class="btn-out btn-linkedin">
                 <img src="img/linkedin.png" alt="icon" class="pull-left">
-                PERFIL LINKEDIN
+                Perfil Linkedin
               </a>
             </div>
             <a href="#perfil" class="soft">
@@ -117,41 +119,41 @@
     </section>
 
     <section class="portafolio pv140 text-center" id="portafolio">
-      <h1 class="mbottom100">Portafolio</h1>
+      <h1 class="mbottom100 mtop0">Portafolio</h1>
       <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 nopadding">
         <a href="#" class="item turquesa" data-toggle="modal" data-target="#homeApp">
           <img src="img/homeApp.png" class="imgMobile">
         </a>
       </div>
       <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 nopadding">
-        <a href="#" class="item celeste">
+        <a href="#" class="item celeste" data-toggle="modal" data-target="#seguroAuto">
           <img src="img/seguroAuto.png" class="imgMobile">
         </a>
       </div>
       <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 nopadding">
-        <a href="#" class="item morado">
+        <a href="#" class="item morado" data-toggle="modal" data-target="#altainmediata">
           <img src="img/altaInmediata.png" class="imgMobile">
         </a>
       </div>
       <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 nopadding">
-        <a href="#" class="item amarillo">
+        <a href="#" class="item amarillo" data-toggle="modal" data-target="#bnamericas">
           <img src="img/bnamericas.png" class="imgDesktop">
         </a>
       </div>
       <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 nopadding">
-        <a href="#" class="item anaranjado">
+        <a href="#" class="item anaranjado" data-toggle="modal" data-target="#altoincendios">
           <img src="img/altoincendios.png" class="imgDesktop">
         </a>
       </div> 
       <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 nopadding">
-        <a href="#" class="item verde">
+        <a href="#" class="item verde" data-toggle="modal" data-target="#levitar">
           <img src="img/levitar.png" class="imgDesktop">
         </a>
       </div> 
     </section>
 
-    <section class="experiencia text-center" id="experiencia">
-      <h1 class="mbottom100">He colaborado con</h1>
+    <section class="experiencia text-center pv140" id="experiencia">
+      <h1 class="mbottom100 mtop0">He colaborado con</h1>
       <div class="container">
         <div class="fila">
           <div class="col-md-3 col-lg-3 col-sm-12 logos">
@@ -183,7 +185,7 @@
         </div>
       </div>
     </section>
-
+    <!-- contacto -->
     <section class="contacto pv140" id="contacto">
       <h1 class="mbottom100 text-center">Contáctame</h1>
       <div class="container">
@@ -209,141 +211,43 @@
           </ul>
         </div>
         <div class="col-md-6 col-lg-6 col-sm-12">
-          <form id="formulario">
+          <!-- form-->
+          <div id="message"></div>
+          <form method="post" action="contact.php" name="contactform" id="contactform">
             <div class="form-group">
-              <label for="nombre">¿Cuál es tu nombre?</label>
-              <input type="text" class="form-control" id="nombre">
+              <label for="name">¿Cuál es tu nombre?</label>
+              <input name="name" type="text" class="form-control" id="name" size="30">
             </div>
             <div class="form-group">
               <label for="email">¿Cuál es tu email?</label>
-              <input type="email" class="form-control" id="email">
+              <input name="email" type="email" class="form-control" id="email" size="30">
             </div>
             <div class="form-group">
-              <label for="mensaje">Escribe tu mensaje</label>
-              <textarea class="form-control" id="mensaje"></textarea> 
+              <label for="comments">Escribe tu mensaje</label>
+              <textarea name="comments" class="form-control" cols="40" rows="3" id="comments"></textarea> 
             </div>
             <div class="text-right">
-              <button type="submit" class="btn btn-primary">Enviar</button>
+              <button id="submit" type="submit" class="btn btn-primary">Enviar</button>
             </div>
           </form>
+          <!-- form -->
         </div>
       </div>
     </section>
+    <!-- contacto -->
+
+    <a href="#inicio" class="soft arrow-up">
+      <img src="img/arrow-up.png" alt="icon up">
+    </a>
 
     <!-- modales -->
 
-    <!-- home app -->
-    <div class="modal fade" id="homeApp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body">
-            <!-- header -->
-            <header class="header homeApp">
-              <div class="tituloProyecto">
-                <h1 class="text-white mbottom0">HOME APP BBVA</h1>
-                <p class="text-white mtop0">Nueva pantalla de posición global</p>
-              </div>
-            </header>
-            <!-- header -->
-            <!-- inicio -->
-            <section class="inicioProyecto pv50">
-              <div class="row">
-                <div class="col-md-6 col-lg-6 col-sm-12 col-md-offset-3 col-lg-offset-3 text-center">
-                  <img src="img/destacado-homeapp.png" alt="iamgen proyecto" class="max100">
-                  <p class="text-center">
-                    Como parte del proyecto de mejoras continuas en la App BBVA nace la iniciativa de rediseñar la posición global, buscando facilitar el acceso a las operaciones más utilizadas y la consulta de información sobre los productos contrtados.
-                  </p>
-                </div>
-              </div>
-            </section>
-            <!-- inicio -->
-            <!-- descripcion -->
-            <section class="descripcion bgblue pv100">
-              <div class="container">
-                <h1 class="text-center text-white">Análisis de Métricas</h1>
-                <div class="row">
-                  <div class="col-md-2 col-lg-2 col-md-offset-1 col-lg-offset-1">
-                    <img src="img/icon-data.png" alt="icon data">
-                  </div>
-                  <div class="col-md-8 col-lg-8">
-                    <p class="text-white">
-                      En el proceso de bocetos y Wireframe comenzamos analizando información y datos que solicitamos a métricas respecto al comportamiento de los usuarios en la App. De esta forma podíamos basarnos en datos para responder al objetivo principal del rediseño que consistió en poner al alcance de los usuarios de manera fácil e inmediata, el acceso a las operaciones más utilizadas y a la consulta de información de sus productos.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- descripcion -->
-            <!-- bocetos -->
-            <section class="bocetos pv100">
-              <div class="container">
-                <h1 class="text-center">Bocetos y Wireframes</h1>
-                <div class="bocetosWireframe">
-                  <div class="row">
-                    <div class="col-md-6 col-lg-6 col-sm-12 text-center">
-                      <div class="pd30">
-                        <p class="text-center">Bocetos</p>
-                        <img src="img/homeapp-boceto1.jpg" alt="bocetos">
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-sm-12 text-center">
-                      <div class="pd30 contentWireframe">
-                        <p class="text-center">Wireframe</p>
-                        <img src="img/homeapp-wireframe1.png" alt="bocetos">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- bocetos -->
-            <!-- diseño ui -->
-            <section class="ui pv100">
-              <div class="container">
-                <h1 class="text-center">Diseño de Interfaz</h1>
-                <div class="row">
-                  <div class="col-md-6 col-lg-6 col-sm-12 text-center">
-                    <img src="img/homeapp-diseno1.png" alt="ui" class="mtop140">
-                  </div> 
-                  <div class="col-md-6 col-lg-6 col-sm-12 text-left">
-                    <img src="img/homeapp-diseno2.png" alt="ui">
-                  </div> 
-                </div>
-              </div>
-            </section>
-            <!-- diseño ui -->
-            <!-- descripcion -->
-            <footer class="footer-proyectos bgdark">
-              <div class="container">
-                <div class="datos-footer">
-                  <h2 class="text-center text-white">Contáctame</h2>
-                  <h5 class="text-white">Ariel Espinoza Salinas / Diseñador UX / Santiago Chile</h5>
-                  <ul class="text-white">
-                    <li>
-                      <img src="img/icon-telefono2.png" alt="icono teléfono">
-                      +569 94946228
-                    </li>
-                    <li>
-                      <img src="img/icon-email2.png" alt="icono email">
-                      <a href="mailto:a.espinozasalinas@gmail.com">a.espinozasalinas@gmail.com</a>
-                    </li>
-                    <li>
-                      <img src="img/icon-linkedin2.png" alt="icono linkedin">
-                      <a href="http://www.linkedin.com/in/arielespinoza" target="_blank">/arielespinoza</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </footer>
-            <!-- descripcion -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- home app -->
+    <?php include("includes/homeapp.php"); ?>
+    <?php include("includes/seguroautomotriz.php"); ?>
+    <?php include("includes/altainmediata.php"); ?>
+    <?php include("includes/bnamericas.php"); ?>
+    <?php include("includes/altoincendios.php"); ?>
+    <?php include("includes/levitar.php"); ?>
 
     <!-- modales -->
 
@@ -352,6 +256,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
+    <script type="text/javascript" src="js/jquery.jigowatt.js"></script><!-- AJAX Form Submit -->
     <!-- scripts -->
 
   </body>

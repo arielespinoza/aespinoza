@@ -1618,7 +1618,7 @@ select[multiple].input-lg {
   padding: 10px 50px;
   font-size: 18px;
   line-height: 1.42857143;
-  border-radius: 4px;
+  border-radius: 0px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -1724,7 +1724,7 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary:focus,
 .btn-primary.focus {
   color: #ffffff;
-  background-color: #286090;
+  background-color: #141414;
   border-color: #122b40;
 }
 .btn-primary:hover {
@@ -2653,8 +2653,8 @@ a.label:focus {
     color: #c5c5c5;
     z-index: 9;
     position: fixed;
-    right: 25px;
-    top: 0px;
+    right: 30px;
+    top: 10px;
 }
 .close:hover,
 .close:focus {

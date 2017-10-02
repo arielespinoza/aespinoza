@@ -3,6 +3,9 @@ body{
 	line-height: 27px;
 	font-weight: 300;
 }
+h5{
+	font-size: 20px;
+}
 .fila {
 	width: 100%;
 	float: left;
@@ -31,6 +34,9 @@ body{
 .mbottom100{
 	margin-bottom:100px;
 }
+.mbottom50{
+	margin-bottom:50px;
+}
 .mbottom40{
 	margin-bottom:40px;
 }
@@ -47,7 +53,7 @@ body{
 	background-color: #004481;
 }
 .bgdark{
-	background-color: #252525;
+	background-color: #171717;
 }
 h1{
 	font-weight: 800;
@@ -74,7 +80,8 @@ section{
 	background-image: url("../img/bghome.jpg");
 	background-position: top;
 	background-repeat: no-repeat;
-	height: 850px;
+	height: 800px;
+	background-attachment: fixed;
 }
 .inicio h1{
 	font-size: 50px;
@@ -84,7 +91,7 @@ section{
 	font-style: normal;
 }
 .inicio p {
-	margin:0px 0px 10px 0px;
+	margin:0px 0px 15px 0px;
 	font-size: 22px;
 	font-weight: 100;
 	font-style: normal;
@@ -123,7 +130,7 @@ section{
 .btnhome {
 	text-align: center;
     margin: 0 auto;
-    width: 435px;
+    width: 372px;
     display: inline-block;
 }
 .pv140{
@@ -265,6 +272,7 @@ textarea{
 	-ms-transition: all 200ms ease-in-out;
 	-o-transition: all 200ms ease-in-out;
 	transition: all 200ms ease-in-out;
+	border-bottom: 1px #f0f0f0 solid;
 }
 .nav li a {
 	color:#292929;
@@ -309,6 +317,31 @@ header.header{
 	background-repeat: no-repeat;
 	background-position: top;
 }
+.homeSeguro{
+	background-image: url("../img/back-seguro.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.altainmediata{
+	background-image: url("../img/back-altainmediata.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.bnamericas{
+	background-image: url("../img/back-bnamericas.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.altoincendios{
+	background-image: url("../img/back-altoincendios.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.levitar{
+	background-image: url("../img/back-levitar.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+}
 .tituloProyecto {
     width: 100%;
     margin-top: 150px;
@@ -333,7 +366,9 @@ header.header{
 	margin-bottom:50px;
 }
 .bocetosWireframe {
-	border:1px #BEBEBE solid;
+	border: 1px #e0e0e0 solid;
+    border-radius: 10px;
+    overflow: hidden;
 }
 .contentWireframe {
 	background:#F9F9F9;
@@ -354,4 +389,71 @@ header.header{
 .inicioProyecto{
 	background:#F9F9F9;
 }
-
+.inicioProyecto p{
+	margin:50px 0px 0px 0px;
+}
+.datos-footer ul {
+	display: inline-block;
+    margin-top: 7px;
+    padding-left:0px;
+    margin-bottom:0px;
+}
+.datos-footer ul li{
+	float: left;
+	list-style: none;
+	margin:0px 10px;
+	font-weight: 100;
+}
+.datos-footer ul li a{
+	color:#fff;
+	text-decoration: none;
+}
+.datos-footer ul li span, .datos-footer ul li img{
+	float: left;
+}
+.datos-footer ul li span{
+	margin-top:3px;
+}
+.datos-footer ul li img{
+	margin-right:5px;
+}
+.footer-proyectos h1 {
+	margin-top:0px;
+}
+.datos-footer h5 {
+	margin-bottom:0px;
+}
+div#success_page {
+    padding: 30px;
+    background: #fff;
+    border: 2px #e6e6e6 solid;
+    border-radius: 5px;
+}
+div#success_page h2 {
+    margin: 0px 0px 0px 0px;
+    font-style: italic;
+}
+div#success_page p {
+    margin: 10px 0px 0px 0px;
+}
+.error_message {
+    border: 2px #fbdada solid;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    color: #ea8282;
+    background-color: #fff8f8;
+    font-weight: 400;
+    text-align: center;
+}
+.arrow-up {
+	position: fixed;
+	bottom:50px;
+	right:20px;
+}
+.isotipo{
+	display: none;
+}
+.affix .isotipo{
+	display: block;
+}
