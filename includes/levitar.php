@@ -9,7 +9,7 @@
         <!-- header -->
         <header class="header levitar">
           <div class="tituloProyecto">
-            <h1 class="text-white mbottom0">LEVITAR</h1>
+            <h1 class="text-white mbottom0">LEVITAR DISEÑO</h1>
             <p class="text-white mtop0">Diseño y Desarrollo Web corporativo</p>
           </div>
         </header>

@@ -7,6 +7,7 @@
     <title>Ariel Espinoza | Diseñador UX</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,900i" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -59,21 +60,21 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12 col-md-offset-2 col-lg-offset-2 text-center infoHome">
-            <img src="img/logo.png" alt="logotipo">
-            <h1 class="text-white">ARIEL ESPINOZA SALINAS</h1>
-            <P class="text-white">Diseñador UX / Licenciado en Diseño Gráfico</P>
+            <img src="img/logo.png" alt="logotipo" class="fadeIn animated">
+            <h1 class="text-white fadeIn animated">ARIEL ESPINOZA SALINAS</h1>
+            <P class="text-white fadeIn animated">Diseñador UX / Licenciado en Diseño Gráfico</P>
             <div class="btnhome">
-              <a href="http://www.arielespinoza.cl/archivos/cv.pdf" target="_blank" class="btn-out btn-cv">
+              <a href="http://www.arielespinoza.cl/archivos/cv.pdf" target="_blank" class="btn-out btn-cv fadeIn animated">
                 <img src="img/pdf.png" alt="icon" class="pull-left">
                 Curriculum
               </a>
-              <a href="http://www.linkedin.com/in/arielespinoza" target="_blank" class="btn-out btn-linkedin">
+              <a href="http://www.linkedin.com/in/arielespinoza" target="_blank" class="btn-out btn-linkedin fadeIn animated">
                 <img src="img/linkedin.png" alt="icon" class="pull-left">
                 Perfil Linkedin
               </a>
             </div>
             <a href="#perfil" class="soft">
-              <div class="arrowDown"></div>
+              <div class="arrowDown animated bounceInUp"></div>
             </a>
           </div>
         </div>

@@ -72,14 +72,14 @@
           <div class="container">
             <h1 class="text-center">Diseño de Interfaz</h1>
             <div class="row">
-              <div class="col-md-4 col-lg-4 col-sm-12 text-center">
-                <img src="img/seguroauto-diseno1.png" alt="ui">
+              <div class="col-md-4 col-lg-4 col-sm-12 text-center nopadding">
+                <img src="img/seguroauto-diseno1.png" alt="ui" class="max100">
               </div> 
-              <div class="col-md-4 col-lg-4 col-sm-12 text-center">
-                <img src="img/seguroauto-diseno2.png" alt="ui">
+              <div class="col-md-4 col-lg-4 col-sm-12 text-center nopadding">
+                <img src="img/seguroauto-diseno2.png" alt="ui" class="max100">
               </div> 
-              <div class="col-md-4 col-lg-4 col-sm-12 text-center">
-                <img src="img/seguroauto-diseno3.png" alt="ui">
+              <div class="col-md-4 col-lg-4 col-sm-12 text-center nopadding">
+                <img src="img/seguroauto-diseno3.png" alt="ui" class="max100">
               </div> 
             </div>
           </div>

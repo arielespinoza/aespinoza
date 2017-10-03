@@ -72,10 +72,10 @@
             <h1 class="text-center">Diseño de Interfaz</h1>
             <div class="row">
               <div class="col-md-6 col-lg-6 col-sm-12 text-center">
-                <img src="img/homeapp-diseno1.png" alt="ui" class="mtop140">
+                <img src="img/homeapp-diseno1.png" alt="ui" class="mtop140 max100">
               </div> 
               <div class="col-md-6 col-lg-6 col-sm-12 text-left">
-                <img src="img/homeapp-diseno2.png" alt="ui">
+                <img src="img/homeapp-diseno2.png" alt="ui" class="max100">
               </div> 
             </div>
           </div>
