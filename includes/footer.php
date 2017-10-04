@@ -1,5 +1,5 @@
 <!-- descripcion -->
-<footer class="footer-proyectos bgdark pv100">
+<footer class="footer-proyectos bgdark pv50">
   <div class="container">
     <div class="row">
       <div class="text-center datos-footer col-md-8 col-lg-8 col-sm-12 col-md-offset-2 col-lg-offset-2">

@@ -70,7 +70,9 @@ section#experiencia {
 .bgblue {
     background-color: #004481;
 }
-
+.descripcion img{
+    border-radius:10px;
+}
 .bgdark {
     background-color: #171717;
 }
@@ -451,21 +453,23 @@ header.header {
 .descripcion .col-md-2 {
     text-align: right;
 }
-
+.bocetos {
+    background:#f9f9f9;
+}
 .descripcion h1,
 .bocetos h1 {
     margin-bottom: 50px;
 }
-
+.bgwhite{
+    background: #fff;
+}
 .bocetosWireframe {
     border: 1px #e0e0e0 solid;
     border-radius: 10px;
     overflow: hidden;
+    margin-top:50px;
 }
 
-.contentWireframe {
-    background: #F9F9F9;
-}
 
 .bocetosWireframe p {
     font-style: italic;
@@ -530,6 +534,7 @@ header.header {
 
 .datos-footer h5 {
     margin-bottom: 0px;
+    font-weight: 300;
 }
 
 div#success_page {

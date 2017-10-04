@@ -17,9 +17,12 @@
         <!-- inicio -->
         <section class="inicioProyecto pv50">
           <div class="row">
-            <div class="col-md-6 col-lg-6 col-sm-12 col-md-offset-3 col-lg-offset-3 text-center">
+            <div class="col-md-6 col-lg-6 col-sm-12  text-center">
               <img src="img/destacado-altainmediata.png" alt="imagen proyecto" class="max100">
-              <p class="text-center">
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12  text-left">
+              <p class="text-left">
+                <h2 class="mtop70">Resumen</h2>
                 La iniciativa Alta Inmediata, surge con el objetivo de desarrollar un ecosistema que permita crear y activar productos BBVA de forma instantánea, sin papeleos e independiente del canal de contacto, originando digitalmente desde el móvil o la Web.
               </p>
             </div>
@@ -27,17 +30,17 @@
         </section>
         <!-- inicio -->
         <!-- descripcion -->
-        <section class="descripcion bgblue pv100">
+        <section class="descripcion pv100">
           <div class="container">
-            <h1 class="text-center text-white">Arquitectura de Información</h1>
             <div class="row">
-              <div class="col-md-2 col-lg-2 col-md-offset-1 col-lg-offset-1">
-                <img src="img/icon-ai.png" alt="icon ai">
-              </div>
-              <div class="col-md-8 col-lg-8">
-                <p class="text-white">
+              <div class="col-md-6 col-lg-6 col-sm-12">
+                <p>
+                  <h2 class="mtop50">Arquitectura de Información</h2>
                   Gran parte el esfuerzo sobre este proyecto tuvo que ver con la estructuración de datos e información, y hacer converger las instancias del Backend y el Frontend en un flujo intuitivo.  De esta forma el desafío fué generar un flujo coherente, fácil de navegar, y sencillo de entender, teniendo en cuenta los diferentes procesos técnicos que debían acontecer en determinados momentos del flujo.
                 </p>
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-12  text-left">
+                <img src="img/arquitectura.jpg" alt="icon ai">
               </div>
             </div>
           </div>
@@ -46,8 +49,8 @@
         <!-- bocetos -->
         <section class="bocetos pv100">
           <div class="container">
-            <h1 class="text-center">Bocetos y Wireframes</h1>
-            <div class="bocetosWireframe mbottom50">
+            <h2 class="text-center">Bocetos y Wireframes</h2>
+            <div class="bocetosWireframe mbottom50 bgwhite">
               <div class="row">
                 <div class="col-md-12 col-lg-12 col-sm-12 text-center">
                   <div class="pd30">
@@ -57,15 +60,15 @@
                 </div>
               </div>
             </div>
-            <div class="bocetosWireframe">
+            <div class="bocetosWireframe bgwhite">
               <div class="row">
-                <div class="col-md-6 col-lg-6 col-sm-12 text-center">
+                <div class="col-md-5 col-lg-5 col-sm-12 col-md-offset-1 col-lg-offset-1 text-center">
                   <div class="pd30">
                     <p class="text-center">Bocetos</p>
                     <img src="img/altainmediata-boceto2.jpg" alt="bocetos">
                   </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-sm-12 text-center">
+                <div class="col-md-5 col-lg-5 col-sm-12 text-center">
                   <div class="pd30 contentWireframe">
                     <p class="text-center">Wireframe</p>
                     <img src="img/altainmediata-wireframe1.jpg" alt="bocetos">
@@ -77,9 +80,9 @@
         </section>
         <!-- bocetos -->
         <!-- diseño ui -->
-        <section class="ui pv100">
+        <section class=" pv100">
           <div class="container">
-            <h1 class="text-center">Diseño de Interfaz</h1>
+            <h2 class="text-center">Diseño de Interfaz</h2>
             <div class="row">
               <div class="col-md-4 col-lg-4 col-sm-12 text-center nopadding">
                 <img src="img/altainmediata-diseno1.png" alt="ui" class="max100">

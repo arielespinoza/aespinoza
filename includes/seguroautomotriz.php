@@ -17,28 +17,32 @@
         <!-- inicio -->
         <section class="inicioProyecto pv50">
           <div class="row">
-            <div class="col-md-6 col-lg-6 col-sm-12 col-md-offset-3 col-lg-offset-3 text-center">
-              <img src="img/destacado-seguroauto.png" alt="imagen proyecto" class="max100">
-              <p class="text-center">
-                Junto con la iniciativa de rediseñar la web de Seguros BBVA, ponemos al alcance de los clientes una aplicación de Seguro Automotriz con el fin de mejorar la experiencia de servicio a través de un canal más inmediato y con información detallada sobre qué hacer en caso de siniestros.
-              </p>
-            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12  text-center">
+                <img src="img/destacado-seguroauto.png" alt="imagen proyecto" class="max100">
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-12  text-left">
+                <p class="text-left">
+                  <h2 class="mtop70">Resumen</h2>
+                  Junto con la iniciativa de rediseñar la web de Seguros BBVA, ponemos al alcance de los clientes una aplicación de Seguro Automotriz con el fin de mejorar la experiencia de servicio a través de un canal más inmediato y con información detallada sobre qué hacer en caso de siniestros.
+                </p>
+              </div>
           </div>
         </section>
         <!-- inicio -->
         <!-- descripcion -->
-        <section class="descripcion bgblue pv100">
+        <section class="descripcion pv100">
           <div class="container">
-            <h1 class="text-center text-white">Investigación</h1>
             <div class="row">
-              <div class="col-md-2 col-lg-2 col-md-offset-1 col-lg-offset-1">
-                <img src="img/icon-investigacion.png" alt="icon investgacion">
-              </div>
-              <div class="col-md-8 col-lg-8">
-                <p class="text-white">
+            
+            <div class="col-md-6 col-lg-6 col-sm-12">
+                <p>
+                  <h2 class="mtop50">Investigación</h2>
                   Trabajamos en un proceso de recopilación de información respecto al flujo de un usuario al momento de presentarse un siniestro. Esto nos permitió trazar el recorrido del usuario en relación a las principales acciones que debe realizar de forma inmediata ante un siniestro, así como también conocer cuál es la información de mayor relevancia que es necesario tener a la mano.
                   Finalmente complementamos el material con un análisis competitivo y benchmark.
                 </p>
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-12  text-left">
+                <img src="img/investigacion.jpg" class="max100">
               </div>
             </div>
           </div>
@@ -47,16 +51,16 @@
         <!-- bocetos -->
         <section class="bocetos pv100">
           <div class="container">
-            <h1 class="text-center">Bocetos y Wireframes</h1>
-            <div class="bocetosWireframe">
+            <h2 class="text-center">Bocetos y Wireframes</h2>
+            <div class="bocetosWireframe bgwhite">
               <div class="row">
-                <div class="col-md-6 col-lg-6 col-sm-12 text-center">
+                <div class="col-md-5 col-lg-5 col-sm-12 col-md-offset-1 col-lg-offset-1 text-center">
                   <div class="pd30">
                     <p class="text-center">Bocetos</p>
                     <img src="img/seguroauto-boceto1.jpg" alt="bocetos">
                   </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-sm-12 text-center">
+                <div class="col-md-5 col-lg-5 col-sm-12 text-center">
                   <div class="pd30 contentWireframe">
                     <p class="text-center">Wireframe</p>
                     <img src="img/seguroauto-wireframe1.jpg" alt="bocetos">
@@ -68,9 +72,9 @@
         </section>
         <!-- bocetos -->
         <!-- diseño ui -->
-        <section class="ui pv100">
+        <section class=" pv100">
           <div class="container">
-            <h1 class="text-center">Diseño de Interfaz</h1>
+            <h2 class="text-center">Diseño de Interfaz</h2>
             <div class="row">
               <div class="col-md-4 col-lg-4 col-sm-12 text-center nopadding">
                 <img src="img/seguroauto-diseno1.png" alt="ui" class="max100">

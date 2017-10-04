@@ -16,29 +16,35 @@
         <!-- header -->
         <!-- inicio -->
         <section class="inicioProyecto pv50">
-          <div class="row">
-            <div class="col-md-6 col-lg-6 col-sm-12 col-md-offset-3 col-lg-offset-3 text-center">
-              <img src="img/destacado-homeapp.png" alt="iamgen proyecto" class="max100">
-              <p class="text-center">
-                Como parte del proyecto de mejoras continuas en la App BBVA nace la iniciativa de rediseñar la posición global, buscando facilitar el acceso a las operaciones más utilizadas y la consulta de información sobre los productos contrtados.
-              </p>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-lg-6 col-sm-12  text-center">
+                <img src="img/destacado-homeapp.png" alt="iamgen proyecto" class="max100">
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-12  text-left">
+                <p class="text-left">
+                  <h2 class="mtop70">Resumen</h2>
+                  Como parte del proyecto de mejoras continuas en la App BBVA nace la iniciativa de rediseñar la posición global, buscando facilitar el acceso a las operaciones más utilizadas y la consulta de información sobre los productos contrtados.
+                </p>
+              </div>
             </div>
           </div>
         </section>
         <!-- inicio -->
         <!-- descripcion -->
-        <section class="descripcion bgblue pv100">
+        <section class="descripcion pv100">
           <div class="container">
-            <h1 class="text-center text-white">Análisis de Métricas</h1>
             <div class="row">
-              <div class="col-md-2 col-lg-2 col-md-offset-1 col-lg-offset-1">
-                <img src="img/icon-data.png" alt="icon data">
-              </div>
-              <div class="col-md-8 col-lg-8">
-                <p class="text-white">
+              <div class="col-md-6 col-lg-6 col-sm-12">
+                <p>
+                  <h2 class="mtop50">Análisis y Métricas</h2>
                   En el proceso de bocetos y Wireframe comenzamos analizando información y datos que solicitamos a métricas respecto al comportamiento de los usuarios en la App. De esta forma podíamos basarnos en datos para responder al objetivo principal del rediseño que consistió en poner al alcance de los usuarios de manera fácil e inmediata, el acceso a las operaciones más utilizadas y a la consulta de información de sus productos.
                 </p>
               </div>
+              <div class="col-md-6 col-lg-6 col-sm-12  text-left">
+                <img src="img/data.jpg" class="max100">
+              </div>
+              
             </div>
           </div>
         </section>
@@ -46,16 +52,16 @@
         <!-- bocetos -->
         <section class="bocetos pv100">
           <div class="container">
-            <h1 class="text-center">Bocetos y Wireframes</h1>
-            <div class="bocetosWireframe">
+            <h2 class="text-center">Bocetos y Wireframes</h2>
+            <div class="bocetosWireframe bgwhite">
               <div class="row">
-                <div class="col-md-6 col-lg-6 col-sm-12 text-center">
+                <div class="col-md-5 col-lg-5 col-sm-12 col-mf-offset-1 col-lg-offset-1 text-center">
                   <div class="pd30">
                     <p class="text-center">Bocetos</p>
                     <img src="img/homeapp-boceto1.jpg" alt="bocetos">
                   </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-sm-12 text-center">
+                <div class="col-md-5 col-lg-5 col-sm-12 text-center">
                   <div class="pd30 contentWireframe">
                     <p class="text-center">Wireframe</p>
                     <img src="img/homeapp-wireframe1.jpg" alt="bocetos">
@@ -67,9 +73,9 @@
         </section>
         <!-- bocetos -->
         <!-- diseño ui -->
-        <section class="ui pv100">
+        <section class=" pv100">
           <div class="container">
-            <h1 class="text-center">Diseño de Interfaz</h1>
+            <h2 class="text-center">Diseño de Interfaz</h2>
             <div class="row">
               <div class="col-md-6 col-lg-6 col-sm-12 text-center">
                 <img src="img/homeapp-diseno1.png" alt="ui" class="mtop140 max100">

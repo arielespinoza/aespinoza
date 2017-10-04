@@ -133,7 +133,7 @@
       </div>
       <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 nopadding">
         <a href="#" class="item morado wow fadeInUp" data-target="#altainmediata" data-wow-duration="1000ms" data-wow-delay="200ms" data-toggle="modal">
-          <img src="img/altaInmediata.png" class="imgMobile">
+          <img src="img/altainmediata.png" class="imgMobile">
         </a>
       </div>
       <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 nopadding">
