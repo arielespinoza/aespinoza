@@ -260,6 +260,13 @@
 
     <!-- modales -->
 
+    <img src="img/back-homeapp.jpg" alt="img" class="hidden">
+    <img src="img/back-seguro.jpg" alt="img" class="hidden">
+    <img src="img/back-altainmediata.jpg" alt="img" class="hidden">
+    <img src="img/back-bnamericas.jpg" alt="img" class="hidden">
+    <img src="img/back-altoincendios.jpg" alt="img" class="hidden">
+    <img src="img/back-levitar.jpg" alt="img" class="hidden">
+
 
     <!-- scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
