@@ -250,7 +250,6 @@
     </a>
 
     <!-- modales -->
-
     <?php include("includes/homeapp.php"); ?>
     <?php include("includes/seguroautomotriz.php"); ?>
     <?php include("includes/altainmediata.php"); ?>
@@ -260,13 +259,7 @@
 
     <!-- modales -->
 
-    <img src="img/back-homeapp.jpg" alt="img" class="hidden">
-    <img src="img/back-seguro.jpg" alt="img" class="hidden">
-    <img src="img/back-altainmediata.jpg" alt="img" class="hidden">
-    <img src="img/back-bnamericas.jpg" alt="img" class="hidden">
-    <img src="img/back-altoincendios.jpg" alt="img" class="hidden">
-    <img src="img/back-levitar.jpg" alt="img" class="hidden">
-
+    <div class="precarga"></div>
 
     <!-- scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -275,6 +268,7 @@
     <script type="text/javascript" src="js/jquery.jigowatt.js"></script><!-- AJAX Form Submit -->
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script>
+      //wow
       wow = new WOW(
         {
           animateClass: 'animated',
@@ -284,10 +278,22 @@
           }
         }
       );
+      //precarga imágenes
+      $(document).ready(function(){
+        var ancho = $(window).width();
+        if(ancho < 1440){
+          $(".precarga").append("<img src='img/back-homeapp-md.jpg' alt='img'><img src='img/back-seguro-md.jpg' alt='img'><img src='img/back-altainmediata-md.jpg' alt='img'><img src='img/back-bnamericas-md.jpg' alt='img'><img src='img/back-altoincendios-md.jpg' alt='img'><img src='img/back-levitar-md.jpg' alt='img'>");
+        }
+        else{
+          $(".precarga").append("<img src='img/back-homeapp.jpg' alt='img'><img src='img/back-seguro.jpg' alt='img'><img src='img/back-altainmediata.jpg' alt='img'><img src='img/back-bnamericas.jpg' alt='img'><img src='img/back-altoincendios.jpg' alt='img'><img src='img/back-levitar.jpg' alt='img'>")
+        }
+      });
       wow.init();
+      //Loader
       $(window).load(function() {
           $(".loader").fadeOut("slow");
           $("body").removeClass("fixed");
+          $(".precarga img").hide();
       });
     </script>
     <!-- scripts -->

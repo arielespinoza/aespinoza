@@ -6,19 +6,16 @@
         <h5>Ariel Espinoza Salinas / Diseñador UX / Santiago Chile</h5>
         <ul>
           <li>
-            <img src="img/icon-telefono2.png" alt="icono teléfono">
             <span>+569 94946228</span>
           </li>
           <li>
-            <img src="img/icon-email2.png" alt="icono email">
             <span>
               <a href="mailto:a.espinozasalinas@gmail.com">a.espinozasalinas@gmail.com</a>
             </span>
           </li>
           <li>
-            <img src="img/icon-linkedin2.png" alt="icono linkedin">
             <span>
-              <a href="http://www.linkedin.com/in/arielespinoza" target="_blank">/arielespinoza</a>
+              <a href="http://www.linkedin.com/in/arielespinoza" target="_blank">www.linkedin.com/in/arielespinoza</a>
             </span>
           </li>
         </ul>
