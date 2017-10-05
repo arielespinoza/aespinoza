@@ -16,6 +16,14 @@
   </head>
   <body>
     
+    <div class="loader">
+      <div class="contener_loader_19">
+        <div class="rond_max_19">
+          <div class="rond_min_19"></div>
+        </div>
+      </div>
+    </div>
+
     <!-- menú -->
     <div class="list-group navbar" id="sidebar" data-spy="affix" data-offset-top="770">
       <a href="#inicio" class="soft">
@@ -270,6 +278,9 @@
         }
       );
       wow.init();
+      $(window).load(function() {
+          $(".loader").fadeOut("slow");
+      });
     </script>
     <!-- scripts -->
 
