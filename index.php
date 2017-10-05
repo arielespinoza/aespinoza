@@ -14,7 +14,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body class="fixed">
     
     <div class="loader">
       <div class="contener_loader_19">
@@ -280,6 +280,7 @@
       wow.init();
       $(window).load(function() {
           $(".loader").fadeOut("slow");
+          $("body").removeClass("fixed");
       });
     </script>
     <!-- scripts -->

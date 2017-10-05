@@ -658,7 +658,9 @@ div#success_page p {
     text-align: center;
     z-index: 99;
 }
-
+.fixed{
+    position: fixed;
+}
 /*loader*/
 .contener_loader_19{
     width:100px;
