@@ -170,7 +170,9 @@ section {
     width: 372px;
     display: inline-block;
 }
-
+.pb50{
+    margin-bottom:50px;
+}
 .pv140 {
     padding: 140px 0px;
 }
@@ -440,6 +442,7 @@ header.header {
 .footer-proyectos {
     width: 100%;
     float: left;
+    border-top: 1px #f0f0f0 solid;
 }
 
 .descripcion h1 {
@@ -511,7 +514,7 @@ header.header {
 }
 
 .datos-footer ul li a {
-    color: #fff;
+    color: #a7a7a7;
     text-decoration: none;
 }
 
@@ -522,6 +525,8 @@ header.header {
 
 .datos-footer ul li span {
     margin-top: 3px;
+    font-weight: 300;
+    color:#a7a7a7;
 }
 
 .datos-footer ul li img {
@@ -533,8 +538,9 @@ header.header {
 }
 
 .datos-footer h5 {
-    margin-bottom: 0px;
-    font-weight: 300;
+    margin: 0px;
+    font-weight: 400;
+    color: #828282;
 }
 
 div#success_page {

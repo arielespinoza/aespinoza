@@ -16,38 +16,43 @@
         <!-- header -->
         <!-- inicio -->
         <section class="inicioProyecto pv50">
-          <div class="row">
-            <div class="col-md-6 col-lg-6 col-sm-12 col-md-offset-3 col-lg-offset-3 text-center">
-              <img src="img/destacado-levitar.png" alt="imagen proyecto" class="max100">
-              <p class="text-center">
-                Levitar es un estudio especializado en Diseño, Ux y Front, que está iniciando como Startup. Una de las iniciativas para el proyecto es el desarrollo de una web que permita darse a conocer y contar con información relacionada a los servicios que se prestan.
-              </p>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-lg-6 col-sm-12  text-center">
+                <img src="img/destacado-levitar.png" alt="imagen proyecto" class="max100">
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-12  text-left">
+                <p class="text-left">
+                  <h2 class="mtop70">Resumen</h2>
+                   Levitar es un estudio especializado en Diseño, Ux y Front, que está iniciando como Startup. Una de las iniciativas para el proyecto es el desarrollo de una web que permita darse a conocer y contar con información relacionada a los servicios que se prestan.
+                </p>
+              </div>
             </div>
           </div>
         </section>
         <!-- inicio -->
         <!-- descripcion -->
-        <section class="descripcion bgblue pv100">
+        <section class="descripcion pv100">
           <div class="container">
-            <h1 class="text-center text-white">Proceso de Diseño</h1>
             <div class="row">
-              <div class="col-md-2 col-lg-2 col-md-offset-1 col-lg-offset-1">
-                <img src="img/icon-diseno.png" alt="icon diseno">
-              </div>
-              <div class="col-md-8 col-lg-8">
-                <p class="text-white">
-                  Antes de comenzar elaboramos un Benchmark para analizar un poco lo que hay actualmente en el mercado, tener en cuenta las mejores prácticas, y aprovechar oportunidades. Como es una web que no posee grandes cantidades de información, la estrategia se centró principalmente en comunicar de manera muy precisa y clara la información respecto a los servicios ofrecidos, y en alcanzar un estilo visual fresco y atractivo.
+              <div class="col-md-6 col-lg-6 col-sm-12">
+                <p>
+                  <h2 class="mtop50">Proceso de Diseño</h2>
+                   Antes de comenzar elaboramos un Benchmark para analizar un poco lo que hay actualmente en el mercado, tener en cuenta las mejores prácticas, y aprovechar oportunidades. Como es una web que no posee grandes cantidades de información, la estrategia se centró principalmente en comunicar de manera muy precisa y clara la información respecto a los servicios ofrecidos, y en alcanzar un estilo visual fresco y atractivo. 
                 </p>
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-12  text-left">
+                <img src="img/diseno.jpg" alt="icon ai">
               </div>
             </div>
           </div>
         </section>
         <!-- descripcion -->
         <!-- bocetos -->
-        <section class="bocetos pv100">
+        <section class="bocetos  pv100">
           <div class="container">
-            <h1 class="text-center">Bocetos y Wireframes</h1>
-            <div class="bocetosWireframe">
+            <h2 class="text-center">Bocetos y Wireframes</h2>
+            <div class="bocetosWireframe bgwhite">
               <div class="row">
                 <div class="col-md-6 col-lg-6 col-sm-12 text-center">
                   <div class="pd30">
@@ -67,9 +72,9 @@
         </section>
         <!-- bocetos -->
         <!-- diseño ui -->
-        <section class="ui pv100">
+        <section class="pv100">
           <div class="container">
-            <h1 class="text-center">Diseño de Interfaz</h1>
+            <h2 class="text-center mbottom50">Diseño de Interfaz</h2>
             <div class="row">
               <div class="col-md-6 col-lg-6 col-sm-12 text-center">
                 <img src="img/levitar-diseno1.jpg" alt="ui">

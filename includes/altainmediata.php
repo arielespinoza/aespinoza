@@ -16,15 +16,17 @@
         <!-- header -->
         <!-- inicio -->
         <section class="inicioProyecto pv50">
-          <div class="row">
-            <div class="col-md-6 col-lg-6 col-sm-12  text-center">
-              <img src="img/destacado-altainmediata.png" alt="imagen proyecto" class="max100">
-            </div>
-            <div class="col-md-6 col-lg-6 col-sm-12  text-left">
-              <p class="text-left">
-                <h2 class="mtop70">Resumen</h2>
-                La iniciativa Alta Inmediata, surge con el objetivo de desarrollar un ecosistema que permita crear y activar productos BBVA de forma instantánea, sin papeleos e independiente del canal de contacto, originando digitalmente desde el móvil o la Web.
-              </p>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-lg-6 col-sm-12  text-center">
+                <img src="img/destacado-altainmediata.png" alt="imagen proyecto" class="max100">
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-12  text-left">
+                <p class="text-left">
+                  <h2 class="mtop70">Resumen</h2>
+                  La iniciativa Alta Inmediata, surge con el objetivo de desarrollar un ecosistema que permita crear y activar productos BBVA de forma instantánea, sin papeleos e independiente del canal de contacto, originando digitalmente desde el móvil o la Web.
+                </p>
+              </div>
             </div>
           </div>
         </section>
@@ -82,7 +84,7 @@
         <!-- diseño ui -->
         <section class=" pv100">
           <div class="container">
-            <h2 class="text-center">Diseño de Interfaz</h2>
+            <h2 class="text-center mbottom50">Diseño de Interfaz</h2>
             <div class="row">
               <div class="col-md-4 col-lg-4 col-sm-12 text-center nopadding">
                 <img src="img/altainmediata-diseno1.png" alt="ui" class="max100">

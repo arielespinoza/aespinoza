@@ -44,7 +44,6 @@
               <div class="col-md-6 col-lg-6 col-sm-12  text-left">
                 <img src="img/data.jpg" class="max100">
               </div>
-              
             </div>
           </div>
         </section>
@@ -75,7 +74,7 @@
         <!-- diseño ui -->
         <section class=" pv100">
           <div class="container">
-            <h2 class="text-center">Diseño de Interfaz</h2>
+            <h2 class="text-center mbottom50">Diseño de Interfaz</h2>
             <div class="row">
               <div class="col-md-6 col-lg-6 col-sm-12 text-center">
                 <img src="img/homeapp-diseno1.png" alt="ui" class="mtop140 max100">

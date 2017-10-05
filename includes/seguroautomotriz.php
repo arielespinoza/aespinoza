@@ -16,16 +16,18 @@
         <!-- header -->
         <!-- inicio -->
         <section class="inicioProyecto pv50">
-          <div class="row">
-            <div class="col-md-6 col-lg-6 col-sm-12  text-center">
-                <img src="img/destacado-seguroauto.png" alt="imagen proyecto" class="max100">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-lg-6 col-sm-12  text-center">
+                  <img src="img/destacado-seguroauto.png" alt="imagen proyecto" class="max100">
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-12  text-left">
+                  <p class="text-left">
+                    <h2 class="mtop70">Resumen</h2>
+                    Junto con la iniciativa de rediseñar la web de Seguros BBVA, ponemos al alcance de los clientes una aplicación de Seguro Automotriz con el fin de mejorar la experiencia de servicio a través de un canal más inmediato y con información detallada sobre qué hacer en caso de siniestros.
+                  </p>
               </div>
-              <div class="col-md-6 col-lg-6 col-sm-12  text-left">
-                <p class="text-left">
-                  <h2 class="mtop70">Resumen</h2>
-                  Junto con la iniciativa de rediseñar la web de Seguros BBVA, ponemos al alcance de los clientes una aplicación de Seguro Automotriz con el fin de mejorar la experiencia de servicio a través de un canal más inmediato y con información detallada sobre qué hacer en caso de siniestros.
-                </p>
-              </div>
+            </div>
           </div>
         </section>
         <!-- inicio -->
@@ -33,8 +35,7 @@
         <section class="descripcion pv100">
           <div class="container">
             <div class="row">
-            
-            <div class="col-md-6 col-lg-6 col-sm-12">
+              <div class="col-md-6 col-lg-6 col-sm-12">
                 <p>
                   <h2 class="mtop50">Investigación</h2>
                   Trabajamos en un proceso de recopilación de información respecto al flujo de un usuario al momento de presentarse un siniestro. Esto nos permitió trazar el recorrido del usuario en relación a las principales acciones que debe realizar de forma inmediata ante un siniestro, así como también conocer cuál es la información de mayor relevancia que es necesario tener a la mano.
@@ -74,7 +75,7 @@
         <!-- diseño ui -->
         <section class=" pv100">
           <div class="container">
-            <h2 class="text-center">Diseño de Interfaz</h2>
+            <h2 class="text-center mbottom50">Diseño de Interfaz</h2>
             <div class="row">
               <div class="col-md-4 col-lg-4 col-sm-12 text-center nopadding">
                 <img src="img/seguroauto-diseno1.png" alt="ui" class="max100">
