@@ -10,7 +10,7 @@
         <header class="header altainmediata">
           <div class="tituloProyecto">
             <h1 class="text-white mbottom0">ALTA INMEDIATA MÓVIL</h1>
-            <p class="text-white mtop0">SOLICITA PRODUCTOS BBVA 100% ONLINE SIN PAPELEO</p>
+            <p class="text-white mtop0">Solicita productos BBVA de forma 100% online sin papeleo</p>
           </div>
         </header>
         <!-- header -->
@@ -24,7 +24,7 @@
               <div class="col-md-6 col-lg-6 col-sm-12  text-left">
                 <p class="text-left">
                   <h2 class="mtop70">Resumen</h2>
-                  La iniciativa Alta Inmediata, surge con el objetivo de desarrollar un ecosistema que permita crear y activar productos BBVA de forma instantánea, sin papeleos e independiente del canal de contacto, originando digitalmente desde el móvil o la Web.
+                  La iniciativa Alta Inmediata surge con el objetivo de desarrollar un ecosistema que permita solicitar y activar productos BBVA de forma instantánea, sin papeleos e independiente del canal de contacto originando digitalmente desde el móvil o la Web.
                 </p>
               </div>
             </div>
@@ -38,7 +38,7 @@
               <div class="col-md-6 col-lg-6 col-sm-12">
                 <p>
                   <h2 class="mtop50">Arquitectura de Información</h2>
-                  Gran parte el esfuerzo sobre este proyecto tuvo que ver con la estructuración de datos e información, y hacer converger las instancias del Backend y el Frontend en un flujo intuitivo.  De esta forma el desafío fué generar un flujo coherente, fácil de navegar, y sencillo de entender, teniendo en cuenta los diferentes procesos técnicos que debían acontecer en determinados momentos del flujo.
+                  Gran parte el esfuerzo sobre este proyecto tuvo que ver con la estructuración de datos e información y hacer converger las instancias del Backend y el Frontend en un flujo intuitivo y coherente.  De esta forma el desafío fué generar un flujo fácil de navegar y sencillo de entender, teniendo en cuenta los diferentes procesos técnicos que debían acontecer en determinados momentos del flujo.
                 </p>
               </div>
               <div class="col-md-6 col-lg-6 col-sm-12  text-left">

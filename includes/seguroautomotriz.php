@@ -10,7 +10,7 @@
         <header class="header homeSeguro">
           <div class="tituloProyecto">
             <h1 class="text-white mbottom0">APP SEGURO AUTOMOTRIZ BBVA</h1>
-            <p class="text-white mtop0">APP INFORMATIVA SOBRE SEGURO AUTOMOTRIZ</p>
+            <p class="text-white mtop0">Diseño de APP informativa sobre Seguro Automotriz</p>
           </div>
         </header>
         <!-- header -->
@@ -24,7 +24,7 @@
                 <div class="col-md-6 col-lg-6 col-sm-12  text-left">
                   <p class="text-left">
                     <h2 class="mtop70">Resumen</h2>
-                    Junto con la iniciativa de rediseñar la web de Seguros BBVA, ponemos al alcance de los clientes una aplicación de Seguro Automotriz con el fin de mejorar la experiencia de servicio a través de un canal más inmediato y con información detallada sobre qué hacer en caso de siniestros.
+                    Junto con la iniciativa de rediseñar la Web de Seguros BBVA, ponemos al alcance de los clientes una aplicación de Seguro Automotriz con el fin de mejorar la experiencia de servicio a través de un canal más inmediato y con información detallada sobre qué hacer en caso de siniestros.
                   </p>
               </div>
             </div>
@@ -38,7 +38,7 @@
               <div class="col-md-6 col-lg-6 col-sm-12">
                 <p>
                   <h2 class="mtop50">Investigación</h2>
-                  Trabajamos en un proceso de recopilación de información respecto al flujo de un usuario al momento de presentarse un siniestro. Esto nos permitió trazar el recorrido del usuario en relación a las principales acciones que debe realizar de forma inmediata ante un siniestro, así como también conocer cuál es la información de mayor relevancia que es necesario tener a la mano.
+                  Trabajamos en un proceso de recopilación de información respecto al viaje del cliente al momento de presentarse un siniestro. Esto nos permitió trazar un recorrido en relación a las principales acciones que se deben realizar de forma inmediata ante un siniestro, así como también, conocer cuál es la información de mayor relevancia que es necesario tener a la mano.
                   Finalmente complementamos el material con un análisis competitivo y benchmark.
                 </p>
               </div>

@@ -10,7 +10,7 @@
         <header class="header bnamericas">
           <div class="tituloProyecto">
             <h1 class="text-white mbottom0">BNAMERICAS</h1>
-            <p class="text-white mtop0">REDISEÑO DE LA WEB PÚBLICA Y PRIVADA</p>
+            <p class="text-white mtop0">Rediseño de la Web pública y privada</p>
           </div>
         </header>
         <!-- header -->
@@ -24,7 +24,7 @@
               <div class="col-md-6 col-lg-6 col-sm-12  text-left">
                 <p class="text-left">
                   <h2 class="mtop70">Resumen</h2>
-                  Con el objetivo de mejorar la usabilidad, el diseño, y la experiencia en el canal, surge la iniciativa de rediseñar por completo la web Privada y Pública de BNaméricas. Se espera aumentar la conversión y mejorar al experiencia de usuario en la web.
+                  Con el objetivo de mejorar la usabilidad, el diseño, y la experiencia en el canal, surge la iniciativa de rediseñar por completo la web Privada y Pública de BNaméricas. Se espera aumentar la conversión y mejorar al experiencia de usuario en la Web.
                 </p>
               </div>
             </div>
@@ -38,7 +38,7 @@
               <div class="col-md-6 col-lg-6 col-sm-12">
                 <p>
                   <h2 class="mtop50">Proceso de Rediseño y AI</h2>
-                  El rediseño de la web se consideró tanto a nivel de interfaz de usuario como de arquitectura de información, por lo que se desarrolló en diferentes fases o etapas que correspondieron a: wireframes y prototipado, diseño de interfaz, y Frontend. El proceso se llevó a cabo validando y testeando en cada una de estas etapas para aplicar mejoras y correcciones según los hallázgos y el feedback que se recibía.
+                  El rediseño de la Web se consideró tanto a nivel de interfaz de usuario como de arquitectura de información, por lo que se desarrolló en diferentes fases o etapas que correspondieron a: wireframes y prototipado, diseño de interfaz, y Frontend. El proceso se llevó a cabo validando y testeando en cada una de estas etapas para aplicar mejoras y correcciones según los hallazgos y el feedback que recibimos.
                 </p>
               </div>
               <div class="col-md-6 col-lg-6 col-sm-12  text-left">

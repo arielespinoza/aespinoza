@@ -10,7 +10,7 @@
         <header class="header altoincendios">
           <div class="tituloProyecto">
             <h1 class="text-white mbottom0">ALTOINCENDIOS</h1>
-            <p class="text-white mtop0">WEB ALTO A LOS INCENDIOS FORESTALES / GOBIERNO DE CHILE</p>
+            <p class="text-white mtop0">Maquetación Front End y desarrollo de Theme Wordpress</p>
           </div>
         </header>
         <!-- header -->
@@ -38,7 +38,7 @@
               <div class="col-md-6 col-lg-6 col-sm-12">
                 <p>
                   <h2 class="mtop50">HTML/CSS Wordpress</h2>
-                  Para el desarrollo de este proyecto se contaba con el diseño de interfaz, por lo que tuvo que ver en primera instancia con la maquetación de la Web de Alto Incendios a nivel HTML/CSS responsive. Posteriormente en una segunda etapa, construir un theme Wordpress a partir de la maqueta HTML que permitiera administrar el contenido de todas las secciones desde el panel de administración, finalmente montar el Wordpress en el servidor con el theme activo.  
+                  Para el desarrollo de este proyecto ya se contaba con el diseño de interfaz gráfica, por lo tanto tuvo que ver en primera instancia con la maquetación de la Web a nivel HTML/CSS y responsive. Posteriormente en una segunda etapa, se trabajó en el desarrollo un theme Wordpress a partir de la maqueta HTML, que permitiera administrar el contenido de todas las secciones desde el panel de administración.
                 </p>
               </div>
               <div class="col-md-6 col-lg-6 col-sm-12  text-left">

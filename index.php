@@ -118,13 +118,10 @@
 
     <section class="metodologia" id="metodologia">
       <div class="half dark pv140">
-        <div class="col-md-9 col-lg-9 col-sm-12 col-md-offset-2 col-lg-offset-2 text-center">
-          <h1 class="mtop70">Trabajo en equipo</h1>
+        <div class="col-md-9 col-lg-9 col-sm-12 col-md-offset-2 col-lg-offset-2 text-left">
+          <h1 class="mtop50">Trabajo en equipo</h1>
           <p>
-            "Equipo… tenemos que hacer modificaciones en el flujo… ¡Pero si ya estamos terminando el Front!”
-          </p>
-          <p>
-            Imagino que no soy el primero en escuchar esa frase, a raíz de esto surge mi propuesta de trabajo colaborativo poniendo en el centro a los involucrados clave durante cada hito del proceso.
+            Trabajando en grandes proyectos que involucran a diferentes áreas y stakeholders, mi propuesta consiste en poner al centro a los involucrados clave durante cada hito del proceso, una vez validados todos los factores: viabilidad técnica, expectativas de negocio, visión de UX y CX, avanzamos a etapas siguientes de forma colaborativa. De esta forma evitamos modificaciones tras pasar por alto alguna visión clave.
           </p>
         </div>
       </div>

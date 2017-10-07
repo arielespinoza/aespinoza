@@ -10,7 +10,7 @@
         <header class="header homeApp">
           <div class="tituloProyecto">
             <h1 class="text-white mbottom0">HOME APP BBVA</h1>
-            <p class="text-white mtop0">Nueva pantalla de posición global</p>
+            <p class="text-white mtop0">Rediseño de posición global en App BBVA</p>
           </div>
         </header>
         <!-- header -->
@@ -24,7 +24,7 @@
               <div class="col-md-6 col-lg-6 col-sm-12  text-left">
                 <p class="text-left">
                   <h2 class="mtop70">Resumen</h2>
-                  Como parte del proyecto de mejoras continuas en la App BBVA nace la iniciativa de rediseñar la posición global, buscando facilitar el acceso a las operaciones más utilizadas y la consulta de información sobre los productos contrtados.
+                  Como parte del proyecto de mejoras continuas en la App BBVA, nace la iniciativa de rediseñar la posición global, buscando facilitar el acceso a las operaciones más utilizadas y la consulta de información sobre los productos contratados.
                 </p>
               </div>
             </div>
@@ -38,7 +38,7 @@
               <div class="col-md-6 col-lg-6 col-sm-12">
                 <p>
                   <h2 class="mtop50">Análisis y Métricas</h2>
-                  En el proceso de bocetos y Wireframe comenzamos analizando información y datos que solicitamos a métricas respecto al comportamiento de los usuarios en la App. De esta forma podíamos basarnos en datos para responder al objetivo principal del rediseño que consistió en poner al alcance de los usuarios de manera fácil e inmediata, el acceso a las operaciones más utilizadas y a la consulta de información de sus productos.
+                  Comenzamos analizando información respecto al comportamiento de los clientes en la App. De esta forma pudimos basarnos en datos para responder al objetivo principal del rediseño que consistió en poner al alcance de los clientes de manera fácil e inmediata, el acceso a las operaciones más utilizadas y a la consulta de información de sus productos.
                 </p>
               </div>
               <div class="col-md-6 col-lg-6 col-sm-12  text-left">
