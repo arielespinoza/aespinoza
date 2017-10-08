@@ -136,31 +136,49 @@
       <h1 class="mbottom100 mtop0">Portafolio</h1>
       <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 nopadding">
         <a href="#" class="item turquesa wow fadeInUp" data-toggle="modal" data-wow-duration="1000ms" data-target="#homeApp">
+          <div class="cover"><!-- cover -->
+            <h1>Home App BBVA</h1>
+          </div><!-- cover -->
           <img src="img/homeApp.png" class="imgMobile">
         </a>
       </div>
       <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 nopadding">
         <a href="#" class="item celeste wow fadeInUp" data-toggle="modal" data-target="#seguroAuto" data-wow-duration="1000ms" data-wow-delay="100ms">
+          <div class="cover"><!-- cover -->
+            <h1>App Seguro Auto BBVA</h1>
+          </div><!-- cover -->
           <img src="img/seguroAuto.png" class="imgMobile">
         </a>
       </div>
       <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 nopadding">
         <a href="#" class="item morado wow fadeInUp" data-target="#altainmediata" data-wow-duration="1000ms" data-wow-delay="200ms" data-toggle="modal">
+          <div class="cover"><!-- cover -->
+            <h1>Alta Inmediata BBVA</h1>
+          </div><!-- cover -->
           <img src="img/altainmediata.png" class="imgMobile">
         </a>
       </div>
       <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 nopadding">
         <a href="#" class="item amarillo wow fadeInUp" data-toggle="modal" data-target="#bnamericas" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <div class="cover"><!-- cover -->
+            <h1>BNamericas</h1>
+          </div><!-- cover -->
           <img src="img/bnamericas.png" class="imgDesktop">
         </a>
       </div>
       <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 nopadding">
         <a href="#" class="item anaranjado wow fadeInUp" data-toggle="modal" data-target="#altoincendios" data-wow-duration="1000ms" data-wow-delay="400ms">
+          <div class="cover"><!-- cover -->
+            <h1>Alto Incendios</h1>
+          </div><!-- cover -->
           <img src="img/altoincendios.png" class="imgDesktop">
         </a>
       </div> 
       <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 nopadding">
         <a href="#" class="item verde wow fadeInUp" data-toggle="modal" data-target="#levitar" data-wow-duration="1000ms" data-wow-delay="500ms">
+          <div class="cover"><!-- cover -->
+            <h1>Levitar Chile</h1>
+          </div><!-- cover -->
           <img src="img/levitar.png" class="imgDesktop">
         </a>
       </div> 
@@ -296,10 +314,19 @@
       wow.init();
       //Loader
       $(window).load(function() {
-          $(".loader").fadeOut("slow");
-          $("body").removeClass("fixed");
-          $(".precarga img").hide();
+        $(".loader").fadeOut("slow");
+        $("body").removeClass("fixed");
+        $(".precarga img").hide();
       });
+      //Cover box
+      $(".item").hover(function(){
+        $(this).find(".cover").fadeIn("fast");
+        $(this).addClass("byn");
+      },function(){
+        $(this).find(".cover").fadeOut("fast");
+        $(this).removeClass("byn");
+      }
+      );
     </script>
     <!-- scripts -->
 
