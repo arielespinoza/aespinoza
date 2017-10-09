@@ -117,19 +117,19 @@
     </section>
 
     <section class="metodologia" id="metodologia">
-      <div class="half dark pv140">
-        <div class="col-md-9 col-lg-9 col-sm-12 col-md-offset-2 col-lg-offset-2 text-left">
-          <h1 class="mtop50">Trabajo en equipo</h1>
-          <p>
-            Trabajando en grandes proyectos que involucran a diferentes áreas y stakeholders, mi propuesta consiste en poner al centro a los involucrados clave durante cada hito del proceso, una vez validados todos los factores: viabilidad técnica, expectativas de negocio, visión de UX y CX, avanzamos a etapas siguientes de forma colaborativa. De esta forma evitamos modificaciones tras pasar por alto alguna visión clave.
-          </p>
+      <div class="container">
+        <div class="dark pv140">
+          <div class="col-md-6 col-lg-6 col-sm-12 text-left pdh50">
+            <h1 class="mtop50">Trabajo en equipo</h1>
+            <p>
+              Trabajando en grandes proyectos que involucran a diferentes áreas y stakeholders, mi propuesta consiste en poner al centro a los involucrados clave durante cada hito del proceso, una vez validados todos los factores: viabilidad técnica, expectativas de negocio, visión de UX y CX, avanzamos a etapas siguientes de forma colaborativa. De esta forma evitamos modificaciones tras pasar por alto alguna visión clave.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-6 col-sm-12  text-center">
+            <img src="img/metodologia.png" alt="img metodología" class="max100 wow fadeInUp" data-wow-duration="1000ms">
+          </div>
         </div>
-      </div>
-      <div class="half gray text-center pv140">
-        <div class="col-md-10 col-lg-10 col-sm-12  text-center">
-          <img src="img/metodologia.png" alt="img metodología" class="wow fadeInUp" data-wow-duration="1000ms">
-        </div>
-      </div>
+      </div><!-- container -->
     </section>
 
     <section class="portafolio pv140 text-center" id="portafolio">

@@ -66,6 +66,9 @@ section#experiencia {
 .pd30 {
     padding: 30px;
 }
+.pdh50 {
+    padding: 0px 50px 0px 50px;
+}
 
 .bgblue {
     background-color: #004481;
@@ -196,6 +199,7 @@ section {
 
 .dark {
     background: #f8f8f8;
+    display: inline-block;
 }
 
 .gray {
@@ -717,6 +721,40 @@ div#success_page p {
     transition-property: filter !important;
 }
 /*media queryes*/
-@media (max-width: 1440px) {
-    
+@media (max-width: 991px) {
+    .perfil h1{
+        text-align: center;
+        margin-top:40px;
+    }
+    .perfil p {
+        text-align: center;
+    }
+    .half {
+        width: 100%;
+    }
+    .metodologia h1, .metodologia p{
+        text-align: center;
+    }
+    .metodologia img {
+        margin-top:40px;
+    }
+    .portafolio .nopadding {
+        margin: 0px 3% 20px 3% !important;
+        width: 94%;
+    }
+    .portafolio .nopadding a {
+        border-radius:5px;
+    }
+    .logos {
+        margin-bottom: 20px;
+    }
+    .contacto ul li {
+        margin-bottom: 10px;
+        width: 50%;
+        height: 39px;
+        float: left;
+    }
+    .contacto ul {
+        display: inline-block;
+    }
 }
