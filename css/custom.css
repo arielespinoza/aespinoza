@@ -865,7 +865,10 @@ div#success_page p {
         padding:0px 3px;
     }
     .btnhome{
-        width: 277px;
+        width: 282px;
+    }
+    .btnhome a {
+        font-weight: 300;
     }
     .perfil img {
         width: 60%;
