@@ -716,3 +716,7 @@ div#success_page p {
      filter:  grayscale(1) !important;
     transition-property: filter !important;
 }
+/*media queryes*/
+@media (max-width: 1440px) {
+    
+}
