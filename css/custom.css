@@ -859,6 +859,7 @@ div#success_page p {
     .inicio p {
         font-size: 16px;
         margin-top:-8px;
+        font-weight: 300;
     }
     .btn-out{
         padding:0px 3px;
@@ -905,6 +906,9 @@ div#success_page p {
     }
     .datos-footer ul {
         margin-top: 0px;
+    }
+    .infoHome {
+        margin-top: 100px;
     }
 }
 
