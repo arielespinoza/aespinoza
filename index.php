@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ariel Espinoza | Diseñador UX</title>
+    <meta name="description" content="Servicios profesionales en Experiencia de Usuario y productos digitales" />
+    <meta name="Keywords" content="Diseñador UX, Consultor UX, Consultoría en Experiencia de Usuario, Profesional UX, Diseñador UX santiago, usabilidad, arquitectura de información, front end, diseño de interfaz, pruebas de usuario, prototipado">
+    <title>Ariel Espinoza | Consultor UX</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
