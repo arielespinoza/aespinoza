@@ -42,7 +42,7 @@
                 </p>
               </div>
               <div class="col-md-6 col-lg-6 col-sm-12  text-left">
-                <img src="img/arquitectura.jpg" alt="icon ai">
+                <img src="img/arquitectura.jpg" alt="icon ai" class="max100">
               </div>
             </div>
           </div>
@@ -67,13 +67,13 @@
                 <div class="col-md-5 col-lg-5 col-sm-12 col-md-offset-1 col-lg-offset-1 text-center">
                   <div class="pd30">
                     <p class="text-center">Bocetos</p>
-                    <img src="img/altainmediata-boceto2.jpg" alt="bocetos">
+                    <img src="img/altainmediata-boceto2.jpg" alt="bocetos" class="max100">
                   </div>
                 </div>
                 <div class="col-md-5 col-lg-5 col-sm-12 text-center">
                   <div class="pd30 contentWireframe">
                     <p class="text-center">Wireframe</p>
-                    <img src="img/altainmediata-wireframe1.jpg" alt="bocetos">
+                    <img src="img/altainmediata-wireframe1.jpg" alt="bocetos" class="max100">
                   </div>
                 </div>
               </div>

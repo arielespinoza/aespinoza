@@ -42,7 +42,7 @@
                 </p>
               </div>
               <div class="col-md-6 col-lg-6 col-sm-12  text-left">
-                <img src="img/htmlcss.jpg" alt="icon ai">
+                <img src="img/htmlcss.jpg" alt="icon ai" class="max100">
               </div>
             </div>
           </div>
@@ -54,10 +54,10 @@
             <h2 class="text-center mbottom50">Theme Wordpress</h2>
             <div class="row">
               <div class="col-md-6 col-lg-6 col-sm-12 text-center">
-                <img src="img/altoincendios-diseno1.jpg" alt="ui">
+                <img src="img/altoincendios-diseno1.jpg" alt="ui" class="max100">
               </div> 
               <div class="col-md-6 col-lg-6 col-sm-12 text-center">
-                <img src="img/altoincendios-diseno2.jpg" alt="ui">
+                <img src="img/altoincendios-diseno2.jpg" alt="ui" class="max100">
               </div> 
             </div>
           </div>

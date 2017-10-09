@@ -809,6 +809,9 @@ div#success_page p {
     }
 }
 @media (max-width: 650px) {
+    .modal-dialog{
+        margin:0px !important;
+    }
     .inicio h1 {
         font-size: 35px;
     }
@@ -850,7 +853,59 @@ div#success_page p {
     }
 }
 @media (max-width: 480px) {
-    
+    .inicio h1, h1 {
+        font-size: 27px;
+    }
+    .inicio p {
+        font-size: 16px;
+        margin-top:-8px;
+    }
+    .btn-out{
+        padding:0px 3px;
+    }
+    .btnhome{
+        width: 277px;
+    }
+    .perfil img {
+        width: 60%;
+        height: auto;
+    }
+    .metodologia p, .perfil p, .inicioProyecto p, .descripcion p {
+        width: 90%;
+        margin: 0 auto;
+        text-align: left !important;
+    }
+    .metodologia .pdh50{
+        padding:0px;
+    }
+    .logos {
+        line-height: 150px;
+    }
+    .contacto h3 {
+        display: none;
+    }
+    .tituloProyecto {
+        width: 90%;
+        margin: 0 auto !important;
+        padding-top: 0px;
+        display: block;
+    }
+    header.header {
+        height: auto;
+        padding: 100px 0px;
+    }
+    .metodologia p, .perfil p, .inicioProyecto p, .descripcion p {
+        width: 100%;
+    }
+    .datos-footer h5 {
+        font-weight: 300;
+        color: #6b6b6b;
+        text-align: left;
+        font-size: 18px;
+    }
+    .datos-footer ul {
+        margin-top: 0px;
+    }
 }
 
 

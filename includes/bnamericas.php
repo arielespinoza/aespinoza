@@ -42,7 +42,7 @@
                 </p>
               </div>
               <div class="col-md-6 col-lg-6 col-sm-12  text-left">
-                <img src="img/rediseno.jpg" alt="icon ai">
+                <img src="img/rediseno.jpg" alt="icon ai" class="max100">
               </div>
             </div>
           </div>
@@ -54,16 +54,16 @@
             <h2 class="text-center mbottom50">Diseño de Interfaz</h2>
             <div class="row">
               <div class="col-md-6 col-lg-6 col-sm-12 text-center mbottom50">
-                <img src="img/bnamericas-diseno1.jpg" alt="ui">
+                <img src="img/bnamericas-diseno1.jpg" alt="ui" class="max100">
               </div> 
               <div class="col-md-6 col-lg-6 col-sm-12 text-center mbottom50">
-                <img src="img/bnamericas-diseno2.jpg" alt="ui">
+                <img src="img/bnamericas-diseno2.jpg" alt="ui" class="max100">
               </div> 
               <div class="col-md-6 col-lg-6 col-sm-12 text-center">
-                <img src="img/bnamericas-diseno3.jpg" alt="ui">
+                <img src="img/bnamericas-diseno3.jpg" alt="ui" class="max100">
               </div> 
               <div class="col-md-6 col-lg-6 col-sm-12 text-center">
-                <img src="img/bnamericas-diseno4.jpg" alt="ui">
+                <img src="img/bnamericas-diseno4.jpg" alt="ui" class="max100">
               </div> 
             </div>
           </div>

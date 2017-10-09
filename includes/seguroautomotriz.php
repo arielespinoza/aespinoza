@@ -58,13 +58,13 @@
                 <div class="col-md-5 col-lg-5 col-sm-12 col-md-offset-1 col-lg-offset-1 text-center">
                   <div class="pd30">
                     <p class="text-center">Bocetos</p>
-                    <img src="img/seguroauto-boceto1.jpg" alt="bocetos">
+                    <img src="img/seguroauto-boceto1.jpg" alt="bocetos" class="max100">
                   </div>
                 </div>
                 <div class="col-md-5 col-lg-5 col-sm-12 text-center">
                   <div class="pd30 contentWireframe">
                     <p class="text-center">Wireframe</p>
-                    <img src="img/seguroauto-wireframe1.jpg" alt="bocetos">
+                    <img src="img/seguroauto-wireframe1.jpg" alt="bocetos" class="max100">
                   </div>
                 </div>
               </div>

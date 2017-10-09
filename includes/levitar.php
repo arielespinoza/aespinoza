@@ -42,7 +42,7 @@
                 </p>
               </div>
               <div class="col-md-6 col-lg-6 col-sm-12  text-left">
-                <img src="img/diseno.jpg" alt="icon ai">
+                <img src="img/diseno.jpg" alt="icon ai" class="max100">
               </div>
             </div>
           </div>
@@ -57,13 +57,13 @@
                 <div class="col-md-6 col-lg-6 col-sm-12 text-center">
                   <div class="pd30">
                     <p class="text-center">Bocetos</p>
-                    <img src="img/levitar-boceto1.jpg" alt="bocetos">
+                    <img src="img/levitar-boceto1.jpg" alt="bocetos" class="max100">
                   </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-sm-12 text-center">
+                <div class="col-md-6 col-lg-6 col-sm-12 text-center" class="max100">
                   <div class="pd30 contentWireframe">
                     <p class="text-center">Wireframe</p>
-                    <img src="img/levitar-wireframe1.jpg" alt="bocetos">
+                    <img src="img/levitar-wireframe1.jpg" alt="bocetos" class="max100">
                   </div>
                 </div>
               </div>
@@ -77,10 +77,10 @@
             <h2 class="text-center mbottom50">Diseño de Interfaz</h2>
             <div class="row">
               <div class="col-md-6 col-lg-6 col-sm-12 text-center">
-                <img src="img/levitar-diseno1.jpg" alt="ui">
+                <img src="img/levitar-diseno1.jpg" alt="ui" class="max100">
               </div> 
               <div class="col-md-6 col-lg-6 col-sm-12 text-center">
-                <img src="img/levitar-diseno2.jpg" alt="ui">
+                <img src="img/levitar-diseno2.jpg" alt="ui" class="max100">
               </div> 
             </div>
           </div>
