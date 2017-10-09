@@ -22,8 +22,8 @@
                 <img src="img/destacado-levitar.png" alt="imagen proyecto" class="max100">
               </div>
               <div class="col-md-6 col-lg-6 col-sm-12  text-left">
-                <p class="text-left">
-                  <h2 class="mtop70">Resumen</h2>
+                <h2 class="mtop70">Resumen</h2>
+                <p>
                    Levitar es un estudio especializado en Diseño, Ux y Front, que está iniciando como Startup. Una de las iniciativas para el proyecto es el desarrollo de una web que permita darse a conocer y contar con información relacionada a los servicios que se prestan.
                 </p>
               </div>
@@ -36,8 +36,8 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 col-lg-6 col-sm-12">
+                <h2 class="mtop50">Proceso de Diseño</h2>
                 <p>
-                  <h2 class="mtop50">Proceso de Diseño</h2>
                    Antes de comenzar elaboramos un Benchmark para analizar un poco lo que hay actualmente en el mercado, tener en cuenta las mejores prácticas, y aprovechar oportunidades. Como es una web que no posee grandes cantidades de información, la estrategia se centró principalmente en comunicar de manera muy precisa y clara la información respecto a los servicios ofrecidos, y en alcanzar un estilo visual fresco y atractivo. 
                 </p>
               </div>
@@ -72,7 +72,7 @@
         </section>
         <!-- bocetos -->
         <!-- diseño ui -->
-        <section class="pv100">
+        <section class="design pv100">
           <div class="container">
             <h2 class="text-center mbottom50">Diseño de Interfaz</h2>
             <div class="row">

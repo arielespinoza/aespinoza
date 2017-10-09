@@ -292,15 +292,19 @@
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script>
       //wow
-      wow = new WOW(
-        {
-          animateClass: 'animated',
-          offset:       100,
-          callback:     function(box) {
-            console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-          }
+      var ancho = $(window).width();
+        if(ancho > 900){
+          wow = new WOW(
+            {
+              animateClass: 'animated',
+              offset:       100,
+              callback:     function(box) {
+                console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+              }
+            }
+          );
+          wow.init();
         }
-      );
       //precarga imágenes
       $(document).ready(function(){
         var ancho = $(window).width();
@@ -311,7 +315,6 @@
           $(".precarga").append("<img src='img/back-homeapp.jpg' alt='img'><img src='img/back-seguro.jpg' alt='img'><img src='img/back-altainmediata.jpg' alt='img'><img src='img/back-bnamericas.jpg' alt='img'><img src='img/back-altoincendios.jpg' alt='img'><img src='img/back-levitar.jpg' alt='img'>")
         }
       });
-      wow.init();
       //Loader
       $(window).load(function() {
         $(".loader").fadeOut("slow");

@@ -22,8 +22,8 @@
                 <img src="img/destacado-homeapp.png" alt="iamgen proyecto" class="max100">
               </div>
               <div class="col-md-6 col-lg-6 col-sm-12  text-left">
-                <p class="text-left">
-                  <h2 class="mtop70">Resumen</h2>
+                <h2 class="mtop70">Resumen</h2>
+                <p>
                   Como parte del proyecto de mejoras continuas en la App BBVA, nace la iniciativa de rediseñar la posición global, buscando facilitar el acceso a las operaciones más utilizadas y la consulta de información sobre los productos contratados.
                 </p>
               </div>
@@ -36,8 +36,8 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 col-lg-6 col-sm-12">
+                <h2 class="mtop50">Análisis y Métricas</h2>
                 <p>
-                  <h2 class="mtop50">Análisis y Métricas</h2>
                   Comenzamos analizando información respecto al comportamiento de los clientes en la App. De esta forma pudimos basarnos en datos para responder al objetivo principal del rediseño que consistió en poner al alcance de los clientes de manera fácil e inmediata, el acceso a las operaciones más utilizadas y a la consulta de información de sus productos.
                 </p>
               </div>
@@ -72,7 +72,7 @@
         </section>
         <!-- bocetos -->
         <!-- diseño ui -->
-        <section class=" pv100">
+        <section class="design pv100">
           <div class="container">
             <h2 class="text-center mbottom50">Diseño de Interfaz</h2>
             <div class="row">

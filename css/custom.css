@@ -720,7 +720,7 @@ div#success_page p {
      filter:  grayscale(1) !important;
     transition-property: filter !important;
 }
-/*media queryes*/
+/*media queries*/
 @media (max-width: 991px) {
     .perfil h1{
         text-align: center;
@@ -752,9 +752,109 @@ div#success_page p {
         margin-bottom: 10px;
         width: 50%;
         height: 39px;
+        line-height: 39px;
         float: left;
     }
     .contacto ul {
         display: inline-block;
     }
+    .contacto ul li img{
+        float: none;
+    }
+    .inicioProyecto p, .inicioProyecto h2, .descripcion p, .descripcion h2, .design .text-left {
+        text-align: center !important;
+    }
+    .descripcion .text-left{
+        text-align: center !important;
+    }
+    .descripcion img {
+        margin-top:40px;
+    }
+    .design .col-md-4 img {
+        margin-bottom:20px;
+    }
+    .design .col-md-6 img {
+        margin-bottom:20px;
+    }
+    .design.col-md-6 .mbottom50{
+        margin-bottom:0px !important;
+    }
+    .design h2 {
+        margin-bottom:40px;
+    }
+    .mtop140{
+        margin-top:50px;
+    }
+    .mtop70{
+        margin-top:30px;
+    }
+    .pv100{
+        padding:50px 0px;
+    }
 }
+@media (max-width: 768px) {
+    #sidebar, .arrow-up, .arrow-up img{
+        display: none !important;
+    }
+    .pv140{
+        padding-top:80px;
+        padding-bottom:80px;
+    }
+    .inicio h1 {
+        font-size: 43px;
+    }
+    .metodologia p, .perfil p, .inicioProyecto p, .descripcion p{
+        width: 90%;
+        margin:0 auto;
+    }
+}
+@media (max-width: 650px) {
+    .inicio h1 {
+        font-size: 35px;
+    }
+    .inicio p{
+        font-size:19px;
+    }
+    h1 {
+        font-size:30px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .metodologia .dark h1, .portafolio h1, .experiencia h1, .contacto h1 {
+        margin-bottom: 40px;
+        margin-top:0px;
+    }
+    .datos-footer ul li {
+        margin: 0px;
+        width: 100%;
+        border-bottom: 1px #f0f0f0 solid;
+        padding: 5px 0px;
+    }
+    .datos-footer ul li span, .datos-footer ul li a {
+        color: #6b6b6b;
+        font-size: 16px;
+    }
+    .datos-footer ul{
+        margin-top:30px;
+    }
+    .contacto ul li {
+        margin-bottom: 10px;
+        width: 100%;
+        height: auto;
+        border-bottom: 1px #f0f0f0 solid;
+        padding: 10px 0px;
+    }
+    .contacto ul {
+        margin-top: 0px;
+    }
+}
+@media (max-width: 480px) {
+    
+}
+
+
+
+
+
+

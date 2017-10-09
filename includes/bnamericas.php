@@ -22,8 +22,8 @@
                 <img src="img/destacado-bnamericas.png" alt="imagen proyecto" class="max100">
               </div>
               <div class="col-md-6 col-lg-6 col-sm-12  text-left">
-                <p class="text-left">
-                  <h2 class="mtop70">Resumen</h2>
+                <h2 class="mtop70">Resumen</h2>
+                <p>
                   Con el objetivo de mejorar la usabilidad, el diseño, y la experiencia en el canal, surge la iniciativa de rediseñar por completo la web Privada y Pública de BNaméricas. Se espera aumentar la conversión y mejorar al experiencia de usuario en la Web.
                 </p>
               </div>
@@ -36,8 +36,8 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 col-lg-6 col-sm-12">
+                <h2 class="mtop50">Proceso de Rediseño y AI</h2>
                 <p>
-                  <h2 class="mtop50">Proceso de Rediseño y AI</h2>
                   El rediseño de la Web se consideró tanto a nivel de interfaz de usuario como de arquitectura de información, por lo que se desarrolló en diferentes fases o etapas que correspondieron a: wireframes y prototipado, diseño de interfaz, y Frontend. El proceso se llevó a cabo validando y testeando en cada una de estas etapas para aplicar mejoras y correcciones según los hallazgos y el feedback que recibimos.
                 </p>
               </div>
@@ -49,7 +49,7 @@
         </section>
         <!-- descripcion -->
         <!-- diseño ui -->
-        <section class="ui pv100">
+        <section class="design ui pv100">
           <div class="container">
             <h2 class="text-center mbottom50">Diseño de Interfaz</h2>
             <div class="row">

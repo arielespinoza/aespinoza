@@ -22,8 +22,8 @@
                   <img src="img/destacado-seguroauto.png" alt="imagen proyecto" class="max100">
                 </div>
                 <div class="col-md-6 col-lg-6 col-sm-12  text-left">
-                  <p class="text-left">
-                    <h2 class="mtop70">Resumen</h2>
+                  <h2 class="mtop70">Resumen</h2>
+                  <p>
                     Junto con la iniciativa de rediseñar la Web de Seguros BBVA, ponemos al alcance de los clientes una aplicación de Seguro Automotriz con el fin de mejorar la experiencia de servicio a través de un canal más inmediato y con información detallada sobre qué hacer en caso de siniestros.
                   </p>
               </div>
@@ -36,8 +36,8 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 col-lg-6 col-sm-12">
+                <h2 class="mtop50">Investigación</h2>
                 <p>
-                  <h2 class="mtop50">Investigación</h2>
                   Trabajamos en un proceso de recopilación de información respecto al viaje del cliente al momento de presentarse un siniestro. Esto nos permitió trazar un recorrido en relación a las principales acciones que se deben realizar de forma inmediata ante un siniestro, así como también, conocer cuál es la información de mayor relevancia que es necesario tener a la mano.
                   Finalmente complementamos el material con un análisis competitivo y benchmark.
                 </p>
@@ -73,7 +73,7 @@
         </section>
         <!-- bocetos -->
         <!-- diseño ui -->
-        <section class=" pv100">
+        <section class="design pv100">
           <div class="container">
             <h2 class="text-center mbottom50">Diseño de Interfaz</h2>
             <div class="row">

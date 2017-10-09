@@ -22,8 +22,8 @@
                 <img src="img/destacado-altainmediata.png" alt="imagen proyecto" class="max100">
               </div>
               <div class="col-md-6 col-lg-6 col-sm-12  text-left">
-                <p class="text-left">
-                  <h2 class="mtop70">Resumen</h2>
+                <h2 class="mtop70">Resumen</h2>
+                <p>
                   La iniciativa Alta Inmediata surge con el objetivo de desarrollar un ecosistema que permita solicitar y activar productos BBVA de forma instantánea, sin papeleos e independiente del canal de contacto originando digitalmente desde el móvil o la Web.
                 </p>
               </div>
@@ -36,8 +36,8 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 col-lg-6 col-sm-12">
+                <h2 class="mtop50">Arquitectura de Información</h2>
                 <p>
-                  <h2 class="mtop50">Arquitectura de Información</h2>
                   Gran parte el esfuerzo sobre este proyecto tuvo que ver con la estructuración de datos e información y hacer converger las instancias del Backend y el Frontend en un flujo intuitivo y coherente.  De esta forma el desafío fué generar un flujo fácil de navegar y sencillo de entender, teniendo en cuenta los diferentes procesos técnicos que debían acontecer en determinados momentos del flujo.
                 </p>
               </div>
@@ -82,7 +82,7 @@
         </section>
         <!-- bocetos -->
         <!-- diseño ui -->
-        <section class=" pv100">
+        <section class="design pv100">
           <div class="container">
             <h2 class="text-center mbottom50">Diseño de Interfaz</h2>
             <div class="row">
