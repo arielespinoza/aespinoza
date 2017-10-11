@@ -853,6 +853,13 @@ div#success_page p {
     }
 }
 @media (max-width: 480px) {
+    .contener_loader_19 {
+        margin-top: 200px;
+    }
+    .design .nopadding{
+        padding-left:15px !important;
+        padding-right:15px !important;
+    }
     .inicio h1, h1 {
         font-size: 27px;
     }
