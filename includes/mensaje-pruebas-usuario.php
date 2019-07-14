@@ -1,0 +1,1 @@
+<p class="text-center mbottom50">Una vez recogidos los hallazgos e Insights de las pruebas de usuario, se diseñó la UI</p>
