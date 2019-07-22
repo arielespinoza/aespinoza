@@ -72,8 +72,8 @@
                 </div>
                 <div class="col-md-5 col-lg-5 col-sm-12 text-center">
                   <div class="pd30 contentWireframe">
-                    <p class="text-center">Wireframe</p>
-                    <img src="img/altainmediata-wireframe1.jpg" alt="bocetos" class="max100">
+                    <p class="text-center">Wireframeeeeee</p>
+                    <img src="img/altainmediata-wireframe1.jpg" alt="bocetos" class="max250">
                   </div>
                 </div>
               </div>

@@ -9,7 +9,7 @@
         <!-- header -->
         <header class="header homeApp">
           <div class="tituloProyecto">
-            <h1 class="text-white mbottom0">HOME APP BBVA</h1>
+            <h1 class="text-white mbottom0">NEW HOME APP BBVA</h1>
             <p class="text-white mtop0">Rediseño de posición global en App BBVA</p>
           </div>
         </header>
@@ -36,13 +36,13 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 col-lg-6 col-sm-12">
-                <h2 class="mtop50">Análisis y Métricas</h2>
+                <h2>Análisis y Métricas</h2>
                 <p>
                   Comenzamos analizando información respecto al comportamiento de los clientes en la App. De esta forma pudimos basarnos en datos para responder al objetivo principal del rediseño que consistió en poner al alcance de los clientes de manera fácil e inmediata, el acceso a las operaciones más utilizadas y a la consulta de información de sus productos.
                 </p>
               </div>
-              <div class="col-md-6 col-lg-6 col-sm-12  text-left">
-                <img src="img/data.jpg" class="max100">
+              <div class="col-md-6 col-lg-6 col-sm-12  text-center">
+                <img src="img/data.jpg" class="max80">
               </div>
             </div>
           </div>
@@ -56,14 +56,14 @@
               <div class="row">
                 <div class="col-md-5 col-lg-5 col-sm-12 col-mf-offset-1 col-lg-offset-1 text-center">
                   <div class="pd30">
-                    <p class="text-center">Bocetos</p>
+                    <p class="text-center">Sketching</p>
                     <img src="img/homeapp-boceto1.jpg" alt="bocetos" class="max100">
                   </div>
                 </div>
                 <div class="col-md-5 col-lg-5 col-sm-12 text-center">
                   <div class="pd30 contentWireframe">
                     <p class="text-center">Wireframe</p>
-                    <img src="img/homeapp-wireframe1.jpg" alt="bocetos" class="max100">
+                    <img src="img/homeapp-wireframe1.jpg" alt="bocetos" class="max250">
                   </div>
                 </div>
               </div>
@@ -75,13 +75,13 @@
         <section class="design pv100">
           <div class="container">
             <h2 class="text-center">Diseño de Interfaz</h2>
-            <?php include("mensaje-pruebas-usuario.php"); ?>
-            <div class="row">
+
+            <div class="row mtop50">
               <div class="col-md-6 col-lg-6 col-sm-12 text-center">
                 <img src="img/homeapp-diseno1.png" alt="ui" class="mtop140 max100">
               </div> 
               <div class="col-md-6 col-lg-6 col-sm-12 text-left">
-                <img src="img/homeapp-diseno2.png" alt="ui" class="max100">
+                <img src="img/homeapp-diseno2.png" alt="ui" class="max350">
               </div> 
             </div>
           </div>

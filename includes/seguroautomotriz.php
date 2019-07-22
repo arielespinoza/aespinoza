@@ -36,14 +36,14 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 col-lg-6 col-sm-12">
-                <h2 class="mtop50">Investigación</h2>
+                <h2>Investigación</h2>
                 <p>
                   Trabajamos en un proceso de recopilación de información respecto al viaje del cliente al momento de presentarse un siniestro. Esto nos permitió trazar un recorrido en relación a las principales acciones que se deben realizar de forma inmediata ante un siniestro, así como también, conocer cuál es la información de mayor relevancia que es necesario tener a la mano.
                   Finalmente complementamos el material con un análisis competitivo y benchmark.
                 </p>
               </div>
-              <div class="col-md-6 col-lg-6 col-sm-12  text-left">
-                <img src="img/investigacion.jpg" class="max100">
+              <div class="col-md-6 col-lg-6 col-sm-12  text-center">
+                <img src="img/investigacion.jpg" class="max80">
               </div>
             </div>
           </div>
@@ -57,14 +57,14 @@
               <div class="row">
                 <div class="col-md-5 col-lg-5 col-sm-12 col-md-offset-1 col-lg-offset-1 text-center">
                   <div class="pd30">
-                    <p class="text-center">Bocetos</p>
+                    <p class="text-center">Sketching</p>
                     <img src="img/seguroauto-boceto1.jpg" alt="bocetos" class="max100">
                   </div>
                 </div>
                 <div class="col-md-5 col-lg-5 col-sm-12 text-center">
                   <div class="pd30 contentWireframe">
                     <p class="text-center">Wireframe</p>
-                    <img src="img/seguroauto-wireframe1.jpg" alt="bocetos" class="max100">
+                    <img src="img/seguroauto-wireframe1.jpg" alt="bocetos" class="max250">
                   </div>
                 </div>
               </div>
@@ -76,8 +76,8 @@
         <section class="design pv100">
           <div class="container">
             <h2 class="text-center">Diseño de Interfaz</h2>
-            <?php include("mensaje-pruebas-usuario.php"); ?>
-            <div class="row">
+
+            <div class="row mtop50">
               <div class="col-md-4 col-lg-4 col-sm-12 text-center nopadding">
                 <img src="img/seguroauto-diseno1.png" alt="ui" class="max100">
               </div> 

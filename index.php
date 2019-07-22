@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Servicios profesionales en Experiencia de Usuario y productos digitales" />
     <meta name="Keywords" content="Diseñador UX, Consultor UX, Consultoría en Experiencia de Usuario, Profesional UX, Diseñador UX santiago, usabilidad, arquitectura de información, front end, diseño de interfaz, pruebas de usuario, prototipado">
-    <title>Ariel Espinoza | UX Lead</title>
+    <title>Ariel Espinoza | Design & UX</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
@@ -37,7 +37,7 @@
     <!-- menú -->
     <div class="list-group navbar" id="sidebar" data-spy="affix" data-offset-top="770">
       <a href="#inicio" class="soft">
-        <div class="isotipo">Ariel Espinoza / <span>UX Lead</span></div>
+        <div class="isotipo">Ariel Espinoza / Diseño & UX</div>
       </a>
       <ul class="nav" id="mynav" >
           <li>
@@ -51,8 +51,8 @@
             </a>
           </li>
           <li> 
-            <a href="#metodologia" class="list-group-item soft" contenteditable="false">
-              Metodología
+            <a href="#estrategia" class="list-group-item soft" contenteditable="false">
+              Estrategia
             </a>
           </li>
           <li> 
@@ -78,9 +78,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12 col-md-offset-2 col-lg-offset-2 text-center infoHome">
-            <img src="img/logo.png" alt="logotipo" class="wow fadeIn" data-wow-duration="2000ms">
-            <h1 class="text-white wow fadeIn" data-wow-duration="2000ms">ARIEL ESPINOZA SALINAS</h1>
-            <P class="text-white wow fadeIn" data-wow-duration="2000ms">UX Lead / Licenciado en Diseño Gráfico</P>
+            <img src="img/logo.png" alt="logotipo" class="wow fadeIn logointro" data-wow-duration="2000ms">
+            <h1 class="text-white wow fadeIn" data-wow-duration="2000ms">Ariel Espinoza</h1>
+            <P class="text-white wow fadeIn" data-wow-duration="2000ms">Licenciado en Diseño Gráfico / Estrategia de Diseño & UX</P>
             <div class="btnhome">
               <a href="http://www.arielespinoza.cl/archivos/cv.pdf" target="_blank" class="btn-out btn-cv wow fadeIn" data-wow-duration="2000ms">
                 <img src="img/pdf.png" alt="icon" class="pull-left">
@@ -108,28 +108,26 @@
           <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1">
             <h1 class="text-center">Perfil personal</h1>
             <p>
-            	Soy Especialista en Diseño y Experiencia de Usuario, dentro de mi carrera he tenido la oportunidad de aprender desde diferentes disciplinas y puntos de vista, como por ejemplo Diseño de Interfaz, Desarrollo Front End, Marketing Digital y Experiencia de Usuario. 
+            	Con siete años de experiencia en diseño de productos digitales y transformación digital, he desempeñado roles como responsable de la gestión de equipos multidisciplinarios y dirección de estrategia de Diseño. 
             </p>
             <p>
-              Como Especialista UX en Banca tuve la oportunidad de formar parte desde el inicio del proceso de transformación digital y pude ser testigo de los cambios culturales y metodológicos que finalmente dieron lugar a un modelo maduro y con procesos bien estructurados, donde la UX se posicionó con el peso y relevancia que se merece. 
-              He tenido la oportunidad de vivir el proceso de fusión entre los bancos BBVA y Scotiabank donde actualmente lidero el equipo de Diseño y UX. La experiencia de poder aprender de una forma diferente de hacer las cosas en donde se integran culturas, procesos, metodologías y personas diferentes, ha significado un proceso constante de aprendizaje en todos los sentidos.
+              A través de mi experiencia en el sector bancario he tenido la oportunidad de formar parte desde el inicio del proceso de transformación digital y he podido ser testigo de los cambios culturales y los principales desafíos a los que se enfrentan las compañías ante este escenario. 
             </p>
-            <p> 
-               Soy promotor de UX en etapas tempranas y en la conceptualización de productos en lugar de limitar la disciplina únicamente a diseñar pantallas y hacer test con usuarios. El valor real de UX para mi está en la capacidad de levantar información valiosa desde las personas en etapas iniciales y diseñar productos que respondan a sus necesidades agregando valor al negocio.
+            <p>
+              Actualmente lidero el equipo de Diseño en Scotiabank donde enfrentamos el proceso de fusión con Banco BBVA. La experiencia de poder aprender de una forma diferente de operar en donde se integran culturas, procesos, metodologías y personas diferentes, ha significado una experiencia única de aprendizaje.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="metodologia" id="metodologia">
+    <section class="metodologia" id="estrategia">
       <div class="container">
         <div class="dark pv140">
           <div class="col-md-6 col-lg-6 col-sm-12 text-left pdh50">
-            <h1 class="mtop50">Trabajo en equipo</h1>
+            <h1 class="mtop0">Estrategia de Diseño</h1>
             <p>
-              Mi propuesta consiste en generar instancias que permitan el trabajo en equipo y la co-creación entre Diseño, Tecnología y Negocio. De esta forma podemos enriquecer el proceso de UX con una visión mucho más precisa al momento de abordar una estrategia a seguir.
-              El equipo de UX debe participar a lo largo de todo el proceso de diseño de productos, y no únicamente al inicio (haciendo un poco de research) ni únicamente al final (realizando pruebas de usuario).
+              El foco del diseño tiene que ver con conseguir resultados concretos e impacto de negocio, apoyarse en una UX de primer nivel permitirá conseguir los outcomes necesarios que generan ese impacto. A nivel de proceso y prácticas debemos articular los experimentos necesarios para validar hipótesis de mayor valor/riesgo trabajando de forma colaborativa en equipos crossfunctional.
             </p>
           </div>
           <div class="col-md-6 col-lg-6 col-sm-12  text-center">
@@ -143,7 +141,7 @@
       <h1 class="mbottom100 mtop0">Portafolio</h1>
       <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 nopadding">
         <a href="#" class="item azul wow fadeInUp" data-target="#accesoBiometrico" data-wow-duration="1000ms" data-wow-delay="200ms" data-toggle="modal">
-          <div class="cover"><!-- cover -->
+          <div class="cover"><!-- cover --> 
             <h1>Acceso Biométrico App BBVA</h1>
           </div><!-- cover -->
           <img src="img/accesoBiometrico.png" class="imgMobile">
@@ -181,14 +179,14 @@
           <img src="img/bnamericas.png" class="imgDesktop">
         </a>
       </div>
-      <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 nopadding">
+      <!--<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 nopadding">
         <a href="#" class="item anaranjado wow fadeInUp" data-toggle="modal" data-target="#altoincendios" data-wow-duration="1000ms" data-wow-delay="400ms">
-          <div class="cover"><!-- cover -->
+          <div class="cover">
             <h1>Alto Incendios</h1>
-          </div><!-- cover -->
+          </div>
           <img src="img/altoincendios.png" class="imgDesktop">
         </a>
-      </div> 
+      </div>--> 
       <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 nopadding">
         <a href="#" class="item verde wow fadeInUp" data-toggle="modal" data-target="#levitar" data-wow-duration="1000ms" data-wow-delay="500ms">
           <div class="cover"><!-- cover -->
@@ -204,7 +202,10 @@
       <div class="container">
         <div class="fila wow fadeInUp" data-wow-duration="1000ms">
           <div class="col-md-3 col-lg-3 col-sm-12 logos">
-            <img src="img/bbva.png" alt="Bbva">
+            <img src="img/scotia.png" alt="Scotiabank">
+          </div>
+          <div class="col-md-3 col-lg-3 col-sm-12 logos">
+            <img src="img/bbva.png" alt="Bbva" class="max-med">
           </div>
           <div class="col-md-3 col-lg-3 col-sm-12 logos">
             <img src="img/intellego.png" alt="Intellego">
@@ -212,22 +213,19 @@
           <div class="col-md-3 col-lg-3 col-sm-12 logos">
             <img src="img/havas.png" alt="Havas">
           </div>
-          <div class="col-md-3 col-lg-3 col-sm-12 logos">
-            <img src="img/bnamericas2.png" alt="Bnamericas">
-          </div>
         </div>
         <div class="fila wow fadeInUp" data-wow-duration="1000ms">
           <div class="col-md-3 col-lg-3 col-sm-12 logos">
-            <img src="img/minagri.png" alt="Minagri">
+            <img src="img/bnamericas2.png" alt="Bnamericas">
           </div>
           <div class="col-md-3 col-lg-3 col-sm-12 logos">
-            <img src="img/fucoa.png" alt="Fucoa">
+            <img src="img/minagri.png" alt="Minagri" class="max-med">
+          </div>
+          <div class="col-md-3 col-lg-3 col-sm-12 logos">
+            <img src="img/fucoa.png" alt="Fucoa" class="max-med">
           </div>
           <div class="col-md-3 col-lg-3 col-sm-12 logos">
             <img src="img/apiux.png" alt="Apiux">
-          </div>
-          <div class="col-md-3 col-lg-3 col-sm-12 logos">
-            <img src="img/crn.png" alt="Corporación nacional de riego">
           </div>
         </div>
       </div>

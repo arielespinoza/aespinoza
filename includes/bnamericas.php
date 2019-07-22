@@ -36,13 +36,13 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 col-lg-6 col-sm-12">
-                <h2 class="mtop50">Proceso de Rediseño y AI</h2>
+                <h2>Proceso de Rediseño y AI</h2>
                 <p>
                   El rediseño de la Web se consideró tanto a nivel de interfaz de usuario como de arquitectura de información, por lo que se desarrolló en diferentes fases o etapas que correspondieron a: wireframes y prototipado, diseño de interfaz, y Frontend. El proceso se llevó a cabo validando y testeando en cada una de estas etapas para aplicar mejoras y correcciones según los hallazgos y el feedback que recibimos.
                 </p>
               </div>
-              <div class="col-md-6 col-lg-6 col-sm-12  text-left">
-                <img src="img/rediseno.jpg" alt="icon ai" class="max100">
+              <div class="col-md-6 col-lg-6 col-sm-12  text-center">
+                <img src="img/rediseno.jpg" alt="icon ai" class="max80">
               </div>
             </div>
           </div>

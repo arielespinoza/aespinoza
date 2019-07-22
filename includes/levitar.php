@@ -36,13 +36,13 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 col-lg-6 col-sm-12">
-                <h2 class="mtop50">Proceso de Diseño</h2>
+                <h2>Proceso de Diseño</h2>
                 <p>
                    Antes de comenzar elaboramos un Benchmark para analizar un poco lo que hay actualmente en el mercado, tener en cuenta las mejores prácticas, y aprovechar oportunidades. Como es una web que no posee grandes cantidades de información, la estrategia se centró principalmente en comunicar de manera muy precisa y clara la información respecto a los servicios ofrecidos, y en alcanzar un estilo visual fresco y atractivo. 
                 </p>
               </div>
-              <div class="col-md-6 col-lg-6 col-sm-12  text-left">
-                <img src="img/diseno.jpg" alt="icon ai" class="max100">
+              <div class="col-md-6 col-lg-6 col-sm-12  text-center">
+                <img src="img/diseno.jpg" alt="icon ai" class="max80">
               </div>
             </div>
           </div>
@@ -63,7 +63,7 @@
                 <div class="col-md-6 col-lg-6 col-sm-12 text-center" class="max100">
                   <div class="pd30 contentWireframe">
                     <p class="text-center">Wireframe</p>
-                    <img src="img/levitar-wireframe1.jpg" alt="bocetos" class="max100">
+                    <img src="img/levitar-wireframe1.jpg" alt="bocetos" class="max100 bordersoft">
                   </div>
                 </div>
               </div>
